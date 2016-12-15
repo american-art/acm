@@ -1,0 +1,3411 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wot: <http://xmlns.com/wot/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1b3vt9n91x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "AAC_AmonCarter_ArtistData.xml" ;
+	km-dev:modelPublicationTime "1481760890145"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"atom\"},{\"columnName\":\"name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"atom\"},{\"columnName\":\"content\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"summarydata\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"internalrecordnumber\"},{\"columnName\":\"row_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namsex\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biolabel\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namsex\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bionationality\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namfullname\"},{\"columnName\":\"artist_name_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthearliestdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bionationality\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthlatestdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthearliestdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathearliestdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthlatestdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathearliestdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"internalrecordnumber\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"internalrecordnumber\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namsex\"},{\"columnName\":\"sex_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthplace\"},{\"columnName\":\"birthplace_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathplace\"},{\"columnName\":\"deathplace_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bionationality\"},{\"columnName\":\"nationality_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathplace\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathlatestdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathplace\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthplace\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathlatestdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthplace\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bioethnicity\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biolabel\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bioethnicity\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"summarydata\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namfullname\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namfullname\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"},{\"columnName\":\"deathdate_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"birthdate_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_biodeathdate_Values\"}]]" ;
+	km-dev:hasModelLabel "acm-artist" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"UnfoldCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"keyhNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"atom\"},
+                    {\"columnName\": \"name\"}
+                ]
+            },
+            {
+                \"name\": \"valuehNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"atom\"},
+                    {\"columnName\": \"content\"}
+                ]
+            },
+            {
+                \"name\": \"notOtherColumn\",
+                \"type\": \"other\",
+                \"value\": \"true\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"summarydata\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namsex\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biolabel\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namsex\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bionationality\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthearliestdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bionationality\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthlatestdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthearliestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathearliestdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthlatestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathearliestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"internalrecordnumber\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"internalrecordnumber\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathplace\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathlatestdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathplace\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthplace\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathlatestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthplace\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bioethnicity\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biolabel\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bioethnicity\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"summarydata\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"namfullname\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"artist_name_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return UM.uri_from_fields(\\\"thesauri/artist_name/\\\",getValue(\\\"Values\\\"))\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"artist_name_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"bionationality\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"nationality_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return UM.uri_from_fields(\\\"thesauri/nationality/\\\",getValue(\\\"Values\\\"))\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bionationality\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bionationality\\\"},{\\\"columnName\\\":\\\"nationality_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"internalrecordnumber\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"row_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"object/\\\"+getValue(\\\"Values\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"internalrecordnumber\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"internalrecordnumber\\\"},{\\\"columnName\\\":\\\"row_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"GlueCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"internalrecordnumber\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"values\",
+                \"type\": \"hNodeIdList\",
+                \"value\": [
+                    {
+                        \"name\": \"checked\",
+                        \"type\": \"hNodeId\",
+                        \"value\": [
+                            {\"columnName\": \"table\"},
+                            {\"columnName\": \"tuple\"},
+                            {\"columnName\": \"table\"},
+                            {\"columnName\": \"tuple\"},
+                            {\"columnName\": \"Unfold: name\"},
+                            {\"columnName\": \"internalrecordnumber\"}
+                        ]
+                    },
+                    {
+                        \"name\": \"checked\",
+                        \"type\": \"hNodeId\",
+                        \"value\": [
+                            {\"columnName\": \"table\"},
+                            {\"columnName\": \"tuple\"},
+                            {\"columnName\": \"table\"},
+                            {\"columnName\": \"tuple\"},
+                            {\"columnName\": \"Unfold: name\"},
+                            {\"columnName\": \"biobirthearliestdate\"}
+                        ]
+                    }
+                ]
+            },
+            {
+                \"name\": \"ImplMethod\",
+                \"type\": \"other\",
+                \"value\": \"Longest\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"Glue_1\"},
+                    {\"columnName\": \"table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"birthdate_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return  getValue(\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\") +\\\"/birthdate/\\\" + getValue(\\\"table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"birthdate_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"biobirthplace\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"birthplace_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return UM.uri_from_fields(\\\"thesauri/birthplace/\\\",getValue(\\\"Values\\\"))\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthplace\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthplace\\\"},{\\\"columnName\\\":\\\"birthplace_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"biodeathplace\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"deathplace_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return UM.uri_from_fields(\\\"thesauri/deathplace/\\\",getValue(\\\"Values\\\"))\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathplace\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathplace\\\"},{\\\"columnName\\\":\\\"deathplace_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"namsex\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"sex_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return UM.uri_from_fields(\\\"thesauri/sex/\\\",getValue(\\\"Values\\\"))\\n\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namsex\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namsex\\\"},{\\\"columnName\\\":\\\"sex_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"GlueCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"internalrecordnumber\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"values\",
+                \"type\": \"hNodeIdList\",
+                \"value\": [
+                    {
+                        \"name\": \"checked\",
+                        \"type\": \"hNodeId\",
+                        \"value\": [
+                            {\"columnName\": \"table\"},
+                            {\"columnName\": \"tuple\"},
+                            {\"columnName\": \"table\"},
+                            {\"columnName\": \"tuple\"},
+                            {\"columnName\": \"Unfold: name\"},
+                            {\"columnName\": \"internalrecordnumber\"}
+                        ]
+                    },
+                    {
+                        \"name\": \"checked\",
+                        \"type\": \"hNodeId\",
+                        \"value\": [
+                            {\"columnName\": \"table\"},
+                            {\"columnName\": \"tuple\"},
+                            {\"columnName\": \"table\"},
+                            {\"columnName\": \"tuple\"},
+                            {\"columnName\": \"Unfold: name\"},
+                            {\"columnName\": \"biodeathdate\"}
+                        ]
+                    }
+                ]
+            },
+            {
+                \"name\": \"ImplMethod\",
+                \"type\": \"other\",
+                \"value\": \"Longest\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_biodeathdate_Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"Glue_2\"},
+                    {\"columnName\": \"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"deathdate_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return getValue(\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\") + \\\"/deathdate/\\\"+ getValue(\\\"table_tuple_table_tuple_Unfold: name_biodeathdate_Values\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_biodeathdate_Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"deathdate_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": false,
+                    \"hasGithubURL\": true,
+                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/ArtistData\",
+                    \"baseURI\": \"\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"acm-artist\",
+                    \"hasBaseURI\": false,
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": false,
+                    \"hasGithubURL\": true,
+                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/ArtistData\",
+                    \"baseURI\": \"\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"namfullname\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#value\",
+                    \"DomainLabel\": \"crm:E82_Actor_Appellation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLiteralNodeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"literalValue\",
+                \"type\": \"other\",
+                \"value\": \"aat:300404670\"
+            },
+            {
+                \"name\": \"literalType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"isUri\",
+                \"type\": \"other\",
+                \"value\": false
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"bionationality\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E74_Group\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E74_Group1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"crm:E74_Group1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bionationality\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bionationality\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLiteralNodeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"literalValue\",
+                \"type\": \"other\",
+                \"value\": \"aat:300379842\"
+            },
+            {
+                \"name\": \"literalType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"isUri\",
+                \"type\": \"other\",
+                \"value\": false
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"biobirthearliestdate\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin\",
+                    \"DomainLabel\": \"E52_Time-Span1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthearliestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthearliestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"biobirthdate\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"crm:E52_Time-Span1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"biobirthplace\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"crm:E53_Place1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthplace\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthplace\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"biobirthlatestdate\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end\",
+                    \"DomainLabel\": \"crm:E52_Time-Span1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthlatestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthlatestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"biodeathplace\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place2\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"crm:E53_Place2 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathplace\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathplace\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"biodeathdate\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span2\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"crm:E52_Time-Span2 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"biodeathearliestdate\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span2\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin\",
+                    \"DomainLabel\": \"crm:E52_Time-Span2\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathearliestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathearliestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"biodeathlatestdate\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span2\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end\",
+                    \"DomainLabel\": \"crm:E52_Time-Span2\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathlatestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathlatestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"namsex\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2004/02/skos/core#prefLabel\",
+                    \"DomainLabel\": \"crm:E55_Type1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namsex\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namsex\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"namfullname\"},
+                    {\"columnName\": \"artist_name_uri\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"crm:E82_Actor_Appellation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"artist_name_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"artist_name_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"bionationality\"},
+                    {\"columnName\": \"nationality_uri\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E74_Group\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E74_Group1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E74_Group\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E74_Group1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"crm:E74_Group1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bionationality\\\"},{\\\"columnName\\\":\\\"nationality_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bionationality\\\"},{\\\"columnName\\\":\\\"nationality_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"internalrecordnumber\"},
+                    {\"columnName\": \"row_uri\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"crm:E39_Actor1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"internalrecordnumber\\\"},{\\\"columnName\\\":\\\"row_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"internalrecordnumber\\\"},{\\\"columnName\\\":\\\"row_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"Glue_1\"},
+                    {\"columnName\": \"birthdate_uri\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"crm:E52_Time-Span1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"birthdate_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"birthdate_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"biobirthplace\"},
+                    {\"columnName\": \"birthplace_uri\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"crm:E53_Place1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthplace\\\"},{\\\"columnName\\\":\\\"birthplace_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthplace\\\"},{\\\"columnName\\\":\\\"birthplace_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"biodeathplace\"},
+                    {\"columnName\": \"deathplace_uri\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place2\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place2\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"crm:E53_Place2\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathplace\\\"},{\\\"columnName\\\":\\\"deathplace_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathplace\\\"},{\\\"columnName\\\":\\\"deathplace_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"namsex\"},
+                    {\"columnName\": \"sex_uri\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"crm:E55_Type1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namsex\\\"},{\\\"columnName\\\":\\\"sex_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namsex\\\"},{\\\"columnName\\\":\\\"sex_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"Glue_2\"},
+                    {\"columnName\": \"deathdate_uri\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span2\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span2\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"crm:E52_Time-Span2\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"deathdate_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"deathdate_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"ChangeInternalNodeLinksCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"type\": \"other\",
+                \"value\": []
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"type\": \"other\",
+                \"value\": \"WSP6:WS5AL\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation1\",
+                    \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",
+                    \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
+                    \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\"
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"ChangeInternalNodeLinksCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"type\": \"other\",
+                \"value\": []
+            },
+            {
+                \"name\": \"newEdges\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"edgeTargetId\": \"aat:3004046701\",
+                    \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
+                    \"edgeTargetUri\": \"aat:300404670\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation1\",
+                    \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"ChangeInternalNodeLinksCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"type\": \"other\",
+                \"value\": []
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"type\": \"other\",
+                \"value\": \"WSP6:WS5AL\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E74_Group1\",
+                    \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of\",
+                    \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E74_Group\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
+                    \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\"
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"ChangeInternalNodeLinksCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"type\": \"other\",
+                \"value\": []
+            },
+            {
+                \"name\": \"newEdges\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"edgeTargetId\": \"aat:3003798421\",
+                    \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
+                    \"edgeTargetUri\": \"aat:300379842\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E74_Group1\",
+                    \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E74_Group\"
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"ChangeInternalNodeLinksCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"type\": \"other\",
+                \"value\": []
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"type\": \"other\",
+                \"value\": \"WSP6:WS5AL\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1\",
+                    \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span\",
+                    \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence1\",
+                    \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence\"
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"ChangeInternalNodeLinksCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"type\": \"other\",
+                \"value\": []
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"type\": \"other\",
+                \"value\": \"WSP6:WS5AL\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence1\",
+                    \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P92i_was_brought_into_existence_by\",
+                    \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
+                    \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\"
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"ChangeInternalNodeLinksCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"type\": \"other\",
+                \"value\": []
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"type\": \"other\",
+                \"value\": \"WSP6:WS5AL\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place1\",
+                    \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at\",
+                    \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence1\",
+                    \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence\"
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"ChangeInternalNodeLinksCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"type\": \"other\",
+                \"value\": []
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"type\": \"other\",
+                \"value\": \"WSP6:WS5AL\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span2\",
+                    \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span\",
+                    \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence1\",
+                    \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence\"
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"ChangeInternalNodeLinksCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"type\": \"other\",
+                \"value\": []
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"type\": \"other\",
+                \"value\": \"WSP6:WS5AL\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place2\",
+                    \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at\",
+                    \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E53_Place\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence1\",
+                    \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence\"
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"ChangeInternalNodeLinksCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"type\": \"other\",
+                \"value\": []
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"type\": \"other\",
+                \"value\": \"WSP6:WS5AL\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence1\",
+                    \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P93i_was_taken_out_of_existence_by\",
+                    \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
+                    \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\"
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"ChangeInternalNodeLinksCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"type\": \"other\",
+                \"value\": []
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"type\": \"other\",
+                \"value\": \"WSP6:WS5AL\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\",
+                    \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
+                    \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
+                    \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\"
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 a rr:TriplesMap .
+
+_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 .
+
+km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x2 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x2 .
+
+km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 rr:logicalTable _:node1b3vt9n91x2 ;
+	rr:subjectMap _:node1b3vt9n91x3 .
+
+_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x3 .
+
+_:node1b3vt9n91x3 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E39_Actor1" ;
+	rr:class crm:E39_Actor ;
+	rr:template "object/{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"internalrecordnumber\",\"Values\"]}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_2305916c-41b9-4ae3-970d-184db6ead4cb rr:predicate crm:P2_has_type .
+
+km-dev:RefObjectMap_2e894371-afbb-4d4d-802e-d56f3dc58966 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_e558d12e-b344-414e-8fa7-64af8c5bc4fe ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_2e894371-afbb-4d4d-802e-d56f3dc58966 .
+
+km-dev:PredicateObjectMap_2305916c-41b9-4ae3-970d-184db6ead4cb rr:objectMap km-dev:RefObjectMap_2e894371-afbb-4d4d-802e-d56f3dc58966 .
+
+km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 rr:predicateObjectMap km-dev:PredicateObjectMap_2305916c-41b9-4ae3-970d-184db6ead4cb .
+
+km-dev:PredicateObjectMap_2305916c-41b9-4ae3-970d-184db6ead4cb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2305916c-41b9-4ae3-970d-184db6ead4cb .
+
+km-dev:PredicateObjectMap_592e8ce9-f509-459e-b86b-2c91baf331df rr:predicate crm:P92i_was_brought_into_existence_by .
+
+km-dev:RefObjectMap_369e9314-f57b-4ee5-9b6b-5bf693d81bd1 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_369e9314-f57b-4ee5-9b6b-5bf693d81bd1 .
+
+km-dev:PredicateObjectMap_592e8ce9-f509-459e-b86b-2c91baf331df rr:objectMap km-dev:RefObjectMap_369e9314-f57b-4ee5-9b6b-5bf693d81bd1 .
+
+km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 rr:predicateObjectMap km-dev:PredicateObjectMap_592e8ce9-f509-459e-b86b-2c91baf331df .
+
+km-dev:PredicateObjectMap_592e8ce9-f509-459e-b86b-2c91baf331df a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_592e8ce9-f509-459e-b86b-2c91baf331df .
+
+km-dev:PredicateObjectMap_648d1bdd-2828-4508-8de1-63fcf2c12f8f rr:predicate crm:P93i_was_taken_out_of_existence_by .
+
+km-dev:RefObjectMap_91f03218-67e1-423a-b8c4-042feb3318c4 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_91f03218-67e1-423a-b8c4-042feb3318c4 .
+
+km-dev:PredicateObjectMap_648d1bdd-2828-4508-8de1-63fcf2c12f8f rr:objectMap km-dev:RefObjectMap_91f03218-67e1-423a-b8c4-042feb3318c4 .
+
+km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 rr:predicateObjectMap km-dev:PredicateObjectMap_648d1bdd-2828-4508-8de1-63fcf2c12f8f .
+
+km-dev:PredicateObjectMap_648d1bdd-2828-4508-8de1-63fcf2c12f8f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_648d1bdd-2828-4508-8de1-63fcf2c12f8f .
+
+km-dev:PredicateObjectMap_210d924b-a3af-4921-8b1c-cde0c7f75000 rr:predicate crm:P107i_is_current_or_former_member_of .
+
+km-dev:RefObjectMap_62321a9f-fc79-455d-a2a5-db79dca1ea04 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_62321a9f-fc79-455d-a2a5-db79dca1ea04 .
+
+km-dev:PredicateObjectMap_210d924b-a3af-4921-8b1c-cde0c7f75000 rr:objectMap km-dev:RefObjectMap_62321a9f-fc79-455d-a2a5-db79dca1ea04 .
+
+km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 rr:predicateObjectMap km-dev:PredicateObjectMap_210d924b-a3af-4921-8b1c-cde0c7f75000 .
+
+km-dev:PredicateObjectMap_210d924b-a3af-4921-8b1c-cde0c7f75000 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_210d924b-a3af-4921-8b1c-cde0c7f75000 .
+
+km-dev:PredicateObjectMap_6591df66-af7a-4241-a61a-100ab46caa72 rr:predicate crm:P1_is_identified_by .
+
+km-dev:RefObjectMap_b3918a45-b24c-4061-91c7-e174bb46b040 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_b3918a45-b24c-4061-91c7-e174bb46b040 .
+
+km-dev:PredicateObjectMap_6591df66-af7a-4241-a61a-100ab46caa72 rr:objectMap km-dev:RefObjectMap_b3918a45-b24c-4061-91c7-e174bb46b040 .
+
+km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 rr:predicateObjectMap km-dev:PredicateObjectMap_6591df66-af7a-4241-a61a-100ab46caa72 .
+
+km-dev:PredicateObjectMap_6591df66-af7a-4241-a61a-100ab46caa72 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6591df66-af7a-4241-a61a-100ab46caa72 .
+
+km-dev:TriplesMap_e558d12e-b344-414e-8fa7-64af8c5bc4fe a rr:TriplesMap .
+
+_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_e558d12e-b344-414e-8fa7-64af8c5bc4fe .
+
+km-dev:TriplesMap_e558d12e-b344-414e-8fa7-64af8c5bc4fe km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x4 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x4 .
+
+km-dev:TriplesMap_e558d12e-b344-414e-8fa7-64af8c5bc4fe rr:logicalTable _:node1b3vt9n91x4 ;
+	rr:subjectMap _:node1b3vt9n91x5 .
+
+_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x5 .
+
+_:node1b3vt9n91x5 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type1" ;
+	rr:class crm:E55_Type ;
+	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"namsex\",\"sex_uri\"]}" .
+
+km-dev:PredicateObjectMap_d488db94-f600-4aa7-a6e1-d7f306debd31 rr:predicate skos:prefLabel .
+
+_:node1b3vt9n91x6 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"namsex\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x6 .
+
+km-dev:PredicateObjectMap_d488db94-f600-4aa7-a6e1-d7f306debd31 rr:objectMap _:node1b3vt9n91x6 .
+
+km-dev:TriplesMap_e558d12e-b344-414e-8fa7-64af8c5bc4fe rr:predicateObjectMap km-dev:PredicateObjectMap_d488db94-f600-4aa7-a6e1-d7f306debd31 .
+
+km-dev:PredicateObjectMap_d488db94-f600-4aa7-a6e1-d7f306debd31 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d488db94-f600-4aa7-a6e1-d7f306debd31 .
+
+km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 a rr:TriplesMap .
+
+_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 .
+
+km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x7 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x7 .
+
+km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 rr:logicalTable _:node1b3vt9n91x7 ;
+	rr:subjectMap _:node1b3vt9n91x8 .
+
+_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x8 .
+
+_:node1b3vt9n91x8 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence1" ;
+	rr:class crm:E63_Beginning_of_Existence ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "crm:E63_Beginning_of_Existence1" .
+
+km-dev:PredicateObjectMap_22b48487-49b2-4729-babb-65d959be180d rr:predicate crm:P4_has_time-span .
+
+km-dev:RefObjectMap_c7b47c49-bd06-4508-a37f-b9c2cba5f438 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_c7b47c49-bd06-4508-a37f-b9c2cba5f438 .
+
+km-dev:PredicateObjectMap_22b48487-49b2-4729-babb-65d959be180d rr:objectMap km-dev:RefObjectMap_c7b47c49-bd06-4508-a37f-b9c2cba5f438 .
+
+km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 rr:predicateObjectMap km-dev:PredicateObjectMap_22b48487-49b2-4729-babb-65d959be180d .
+
+km-dev:PredicateObjectMap_22b48487-49b2-4729-babb-65d959be180d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_22b48487-49b2-4729-babb-65d959be180d .
+
+km-dev:PredicateObjectMap_edf77b26-2597-40aa-b321-6b2a83566ed4 rr:predicate crm:P7_took_place_at .
+
+km-dev:RefObjectMap_0018058c-119c-4acc-92a4-ba173cb6f261 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_2dc16f16-918f-4865-8da4-63ce6f0e9009 ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_0018058c-119c-4acc-92a4-ba173cb6f261 .
+
+km-dev:PredicateObjectMap_edf77b26-2597-40aa-b321-6b2a83566ed4 rr:objectMap km-dev:RefObjectMap_0018058c-119c-4acc-92a4-ba173cb6f261 .
+
+km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 rr:predicateObjectMap km-dev:PredicateObjectMap_edf77b26-2597-40aa-b321-6b2a83566ed4 .
+
+km-dev:PredicateObjectMap_edf77b26-2597-40aa-b321-6b2a83566ed4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_edf77b26-2597-40aa-b321-6b2a83566ed4 .
+
+km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e a rr:TriplesMap .
+
+_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e .
+
+km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x9 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x9 .
+
+km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e rr:logicalTable _:node1b3vt9n91x9 ;
+	rr:subjectMap _:node1b3vt9n91x10 .
+
+_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x10 .
+
+_:node1b3vt9n91x10 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence1" ;
+	rr:class crm:E64_End_of_Existence ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "crm:E64_End_of_Existence1" .
+
+km-dev:PredicateObjectMap_5c7e614a-e6cd-4da6-a7f3-643b7718a8b9 rr:predicate crm:P4_has_time-span .
+
+km-dev:RefObjectMap_bce2290a-5fee-473a-9be0-ef340452e369 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_bce2290a-5fee-473a-9be0-ef340452e369 .
+
+km-dev:PredicateObjectMap_5c7e614a-e6cd-4da6-a7f3-643b7718a8b9 rr:objectMap km-dev:RefObjectMap_bce2290a-5fee-473a-9be0-ef340452e369 .
+
+km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e rr:predicateObjectMap km-dev:PredicateObjectMap_5c7e614a-e6cd-4da6-a7f3-643b7718a8b9 .
+
+km-dev:PredicateObjectMap_5c7e614a-e6cd-4da6-a7f3-643b7718a8b9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5c7e614a-e6cd-4da6-a7f3-643b7718a8b9 .
+
+km-dev:PredicateObjectMap_330b61db-4065-4967-a459-7541ddb3bb7e rr:predicate crm:P7_took_place_at .
+
+km-dev:RefObjectMap_71794c4e-7dfc-4945-aae5-1b9b126674be a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_19686a66-a84c-4ad4-a406-291e81d0f968 ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_71794c4e-7dfc-4945-aae5-1b9b126674be .
+
+km-dev:PredicateObjectMap_330b61db-4065-4967-a459-7541ddb3bb7e rr:objectMap km-dev:RefObjectMap_71794c4e-7dfc-4945-aae5-1b9b126674be .
+
+km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e rr:predicateObjectMap km-dev:PredicateObjectMap_330b61db-4065-4967-a459-7541ddb3bb7e .
+
+km-dev:PredicateObjectMap_330b61db-4065-4967-a459-7541ddb3bb7e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_330b61db-4065-4967-a459-7541ddb3bb7e .
+
+km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 a rr:TriplesMap .
+
+_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 .
+
+km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x11 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x11 .
+
+km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 rr:logicalTable _:node1b3vt9n91x11 ;
+	rr:subjectMap _:node1b3vt9n91x12 .
+
+_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x12 .
+
+_:node1b3vt9n91x12 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E74_Group1" ;
+	rr:class crm:E74_Group ;
+	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"bionationality\",\"nationality_uri\"]}" .
+
+km-dev:PredicateObjectMap_f57e34fc-c68a-479b-9d37-0321740b90f1 rr:predicate rdfs:label .
+
+_:node1b3vt9n91x13 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"bionationality\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x13 .
+
+km-dev:PredicateObjectMap_f57e34fc-c68a-479b-9d37-0321740b90f1 rr:objectMap _:node1b3vt9n91x13 .
+
+km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 rr:predicateObjectMap km-dev:PredicateObjectMap_f57e34fc-c68a-479b-9d37-0321740b90f1 .
+
+km-dev:PredicateObjectMap_f57e34fc-c68a-479b-9d37-0321740b90f1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f57e34fc-c68a-479b-9d37-0321740b90f1 .
+
+km-dev:PredicateObjectMap_4ecb8d3f-bdcf-4fc9-a018-e85f81b582f1 rr:predicate crm:P2_has_type .
+
+_:node1b3vt9n91x14 rr:constant "aat:300379842" ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x14 .
+
+km-dev:PredicateObjectMap_4ecb8d3f-bdcf-4fc9-a018-e85f81b582f1 rr:objectMap _:node1b3vt9n91x14 .
+
+km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 rr:predicateObjectMap km-dev:PredicateObjectMap_4ecb8d3f-bdcf-4fc9-a018-e85f81b582f1 .
+
+km-dev:PredicateObjectMap_4ecb8d3f-bdcf-4fc9-a018-e85f81b582f1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4ecb8d3f-bdcf-4fc9-a018-e85f81b582f1 .
+
+km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba a rr:TriplesMap .
+
+_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba .
+
+km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x15 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x15 .
+
+km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba rr:logicalTable _:node1b3vt9n91x15 ;
+	rr:subjectMap _:node1b3vt9n91x16 .
+
+_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x16 .
+
+_:node1b3vt9n91x16 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation1" ;
+	rr:class crm:E82_Actor_Appellation ;
+	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"namfullname\",\"artist_name_uri\"]}" .
+
+km-dev:PredicateObjectMap_474982a2-7c99-4d27-9d57-91f213d7e2f6 rr:predicate rdf:value .
+
+_:node1b3vt9n91x17 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"namfullname\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x17 .
+
+km-dev:PredicateObjectMap_474982a2-7c99-4d27-9d57-91f213d7e2f6 rr:objectMap _:node1b3vt9n91x17 .
+
+km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba rr:predicateObjectMap km-dev:PredicateObjectMap_474982a2-7c99-4d27-9d57-91f213d7e2f6 .
+
+km-dev:PredicateObjectMap_474982a2-7c99-4d27-9d57-91f213d7e2f6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_474982a2-7c99-4d27-9d57-91f213d7e2f6 .
+
+km-dev:PredicateObjectMap_19df3f3c-013f-4221-bdb2-9d0a58554e37 rr:predicate crm:P2_has_type .
+
+_:node1b3vt9n91x18 rr:constant "aat:300404670" ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x18 .
+
+km-dev:PredicateObjectMap_19df3f3c-013f-4221-bdb2-9d0a58554e37 rr:objectMap _:node1b3vt9n91x18 .
+
+km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba rr:predicateObjectMap km-dev:PredicateObjectMap_19df3f3c-013f-4221-bdb2-9d0a58554e37 .
+
+km-dev:PredicateObjectMap_19df3f3c-013f-4221-bdb2-9d0a58554e37 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_19df3f3c-013f-4221-bdb2-9d0a58554e37 .
+
+km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 a rr:TriplesMap .
+
+_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 .
+
+km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x19 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x19 .
+
+km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 rr:logicalTable _:node1b3vt9n91x19 ;
+	rr:subjectMap _:node1b3vt9n91x20 .
+
+_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x20 .
+
+_:node1b3vt9n91x20 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1" ;
+	rr:class crm:E52_Time-Span ;
+	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"Glue_1\",\"birthdate_uri\"]}" .
+
+km-dev:PredicateObjectMap_805ada10-3130-411b-b9c6-d459f97b058d rr:predicate rdfs:label .
+
+_:node1b3vt9n91x21 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthdate\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x21 .
+
+km-dev:PredicateObjectMap_805ada10-3130-411b-b9c6-d459f97b058d rr:objectMap _:node1b3vt9n91x21 .
+
+km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 rr:predicateObjectMap km-dev:PredicateObjectMap_805ada10-3130-411b-b9c6-d459f97b058d .
+
+km-dev:PredicateObjectMap_805ada10-3130-411b-b9c6-d459f97b058d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_805ada10-3130-411b-b9c6-d459f97b058d .
+
+km-dev:PredicateObjectMap_39ced915-3f9e-488f-a9fd-503e14d1b839 rr:predicate crm:P82a_begin_of_the_begin .
+
+_:node1b3vt9n91x22 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthearliestdate\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x22 .
+
+km-dev:PredicateObjectMap_39ced915-3f9e-488f-a9fd-503e14d1b839 rr:objectMap _:node1b3vt9n91x22 .
+
+km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 rr:predicateObjectMap km-dev:PredicateObjectMap_39ced915-3f9e-488f-a9fd-503e14d1b839 .
+
+km-dev:PredicateObjectMap_39ced915-3f9e-488f-a9fd-503e14d1b839 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_39ced915-3f9e-488f-a9fd-503e14d1b839 .
+
+km-dev:PredicateObjectMap_f85ca3af-8861-4b9e-ab01-dde9a41e161b rr:predicate crm:P82b_end_of_the_end .
+
+_:node1b3vt9n91x23 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthlatestdate\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x23 .
+
+km-dev:PredicateObjectMap_f85ca3af-8861-4b9e-ab01-dde9a41e161b rr:objectMap _:node1b3vt9n91x23 .
+
+km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 rr:predicateObjectMap km-dev:PredicateObjectMap_f85ca3af-8861-4b9e-ab01-dde9a41e161b .
+
+km-dev:PredicateObjectMap_f85ca3af-8861-4b9e-ab01-dde9a41e161b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f85ca3af-8861-4b9e-ab01-dde9a41e161b .
+
+km-dev:TriplesMap_2dc16f16-918f-4865-8da4-63ce6f0e9009 a rr:TriplesMap .
+
+_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_2dc16f16-918f-4865-8da4-63ce6f0e9009 .
+
+km-dev:TriplesMap_2dc16f16-918f-4865-8da4-63ce6f0e9009 km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x24 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x24 .
+
+km-dev:TriplesMap_2dc16f16-918f-4865-8da4-63ce6f0e9009 rr:logicalTable _:node1b3vt9n91x24 ;
+	rr:subjectMap _:node1b3vt9n91x25 .
+
+_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x25 .
+
+_:node1b3vt9n91x25 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E53_Place1" ;
+	rr:class crm:E53_Place ;
+	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthplace\",\"birthplace_uri\"]}" .
+
+km-dev:PredicateObjectMap_aba8a69f-87fe-4a77-99a6-f9b5e25ba445 rr:predicate rdfs:label .
+
+_:node1b3vt9n91x26 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthplace\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x26 .
+
+km-dev:PredicateObjectMap_aba8a69f-87fe-4a77-99a6-f9b5e25ba445 rr:objectMap _:node1b3vt9n91x26 .
+
+km-dev:TriplesMap_2dc16f16-918f-4865-8da4-63ce6f0e9009 rr:predicateObjectMap km-dev:PredicateObjectMap_aba8a69f-87fe-4a77-99a6-f9b5e25ba445 .
+
+km-dev:PredicateObjectMap_aba8a69f-87fe-4a77-99a6-f9b5e25ba445 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_aba8a69f-87fe-4a77-99a6-f9b5e25ba445 .
+
+km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db a rr:TriplesMap .
+
+_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db .
+
+km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x27 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x27 .
+
+km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db rr:logicalTable _:node1b3vt9n91x27 ;
+	rr:subjectMap _:node1b3vt9n91x28 .
+
+_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x28 .
+
+_:node1b3vt9n91x28 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span2" ;
+	rr:class crm:E52_Time-Span ;
+	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"Glue_2\",\"deathdate_uri\"]}" .
+
+km-dev:PredicateObjectMap_89dca9fc-cbb7-4494-9919-899c4f312e6e rr:predicate rdfs:label .
+
+_:node1b3vt9n91x29 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathdate\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x29 .
+
+km-dev:PredicateObjectMap_89dca9fc-cbb7-4494-9919-899c4f312e6e rr:objectMap _:node1b3vt9n91x29 .
+
+km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db rr:predicateObjectMap km-dev:PredicateObjectMap_89dca9fc-cbb7-4494-9919-899c4f312e6e .
+
+km-dev:PredicateObjectMap_89dca9fc-cbb7-4494-9919-899c4f312e6e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_89dca9fc-cbb7-4494-9919-899c4f312e6e .
+
+km-dev:PredicateObjectMap_c7250617-231d-402d-ab47-6dde85f9a532 rr:predicate crm:P82b_end_of_the_end .
+
+_:node1b3vt9n91x30 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathlatestdate\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x30 .
+
+km-dev:PredicateObjectMap_c7250617-231d-402d-ab47-6dde85f9a532 rr:objectMap _:node1b3vt9n91x30 .
+
+km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db rr:predicateObjectMap km-dev:PredicateObjectMap_c7250617-231d-402d-ab47-6dde85f9a532 .
+
+km-dev:PredicateObjectMap_c7250617-231d-402d-ab47-6dde85f9a532 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c7250617-231d-402d-ab47-6dde85f9a532 .
+
+km-dev:PredicateObjectMap_7f79f142-9b20-4b42-9598-1c959a98fe21 rr:predicate crm:P82a_begin_of_the_begin .
+
+_:node1b3vt9n91x31 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathearliestdate\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x31 .
+
+km-dev:PredicateObjectMap_7f79f142-9b20-4b42-9598-1c959a98fe21 rr:objectMap _:node1b3vt9n91x31 .
+
+km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db rr:predicateObjectMap km-dev:PredicateObjectMap_7f79f142-9b20-4b42-9598-1c959a98fe21 .
+
+km-dev:PredicateObjectMap_7f79f142-9b20-4b42-9598-1c959a98fe21 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7f79f142-9b20-4b42-9598-1c959a98fe21 .
+
+km-dev:TriplesMap_19686a66-a84c-4ad4-a406-291e81d0f968 a rr:TriplesMap .
+
+_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_19686a66-a84c-4ad4-a406-291e81d0f968 .
+
+km-dev:TriplesMap_19686a66-a84c-4ad4-a406-291e81d0f968 km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x32 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x32 .
+
+km-dev:TriplesMap_19686a66-a84c-4ad4-a406-291e81d0f968 rr:logicalTable _:node1b3vt9n91x32 ;
+	rr:subjectMap _:node1b3vt9n91x33 .
+
+_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x33 .
+
+_:node1b3vt9n91x33 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E53_Place2" ;
+	rr:class crm:E53_Place ;
+	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathplace\",\"deathplace_uri\"]}" .
+
+km-dev:PredicateObjectMap_39f29bb5-8dc8-48dc-940f-d289a48b0fb1 rr:predicate rdfs:label .
+
+_:node1b3vt9n91x34 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathplace\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x34 .
+
+km-dev:PredicateObjectMap_39f29bb5-8dc8-48dc-940f-d289a48b0fb1 rr:objectMap _:node1b3vt9n91x34 .
+
+km-dev:TriplesMap_19686a66-a84c-4ad4-a406-291e81d0f968 rr:predicateObjectMap km-dev:PredicateObjectMap_39f29bb5-8dc8-48dc-940f-d289a48b0fb1 .
+
+km-dev:PredicateObjectMap_39f29bb5-8dc8-48dc-940f-d289a48b0fb1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+
+_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_39f29bb5-8dc8-48dc-940f-d289a48b0fb1 .
