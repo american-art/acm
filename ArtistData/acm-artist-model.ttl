@@ -13,12 +13,12 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1b3vt9n91x1 a km-dev:R2RMLMapping ;
+_:node1b44hhgejx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "AAC_AmonCarter_ArtistData.xml" ;
-	km-dev:modelPublicationTime "1481760890145"^^xsd:long ;
+	km-dev:modelPublicationTime "1481916334547"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"atom\"},{\"columnName\":\"name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"atom\"},{\"columnName\":\"content\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"summarydata\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"internalrecordnumber\"},{\"columnName\":\"row_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namsex\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biolabel\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namsex\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bionationality\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namfullname\"},{\"columnName\":\"artist_name_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthearliestdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bionationality\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthlatestdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthearliestdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathearliestdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthlatestdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathearliestdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"internalrecordnumber\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"internalrecordnumber\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namsex\"},{\"columnName\":\"sex_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthplace\"},{\"columnName\":\"birthplace_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathplace\"},{\"columnName\":\"deathplace_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bionationality\"},{\"columnName\":\"nationality_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathplace\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathlatestdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathplace\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthplace\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathlatestdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthplace\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bioethnicity\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biolabel\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bioethnicity\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"summarydata\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namfullname\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namfullname\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"},{\"columnName\":\"deathdate_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"birthdate_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_biodeathdate_Values\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthplace\"},{\"columnName\":\"birthplace_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biolabel\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namfullname\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namsex\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"birthdate_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bionationality\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namsex\"},{\"columnName\":\"sex_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namsex\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bionationality\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthlatestdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthearliestdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthlatestdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathplace\"},{\"columnName\":\"deathplace_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthearliestdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathearliestdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"},{\"columnName\":\"deathdate_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"internalrecordnumber\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"summarydata\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"internalrecordnumber\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"summarydata\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namfullname\"},{\"columnName\":\"artist_name_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathearliestdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_biodeathdate_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"internalrecordnumber\"},{\"columnName\":\"row_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathlatestdate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathplace\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathlatestdate\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biodeathplace\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthplace\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_2\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bioethnicity\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biobirthplace\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bioethnicity\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"biolabel\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namfullname\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"namfullname\"},{\"columnName\":\"name_duplicate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"bionationality\"},{\"columnName\":\"nationality_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"Glue_1\"}]]" ;
 	km-dev:hasModelLabel "acm-artist" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
 	km-dev:hasWorksheetHistory """[
@@ -73,7 +73,7 @@ _:node1b3vt9n91x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"summarydata\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namsex\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biolabel\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namsex\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bionationality\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthearliestdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bionationality\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthlatestdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthearliestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathearliestdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthlatestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathearliestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"internalrecordnumber\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"internalrecordnumber\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathplace\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathlatestdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathplace\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthplace\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathlatestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthplace\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bioethnicity\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biolabel\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bioethnicity\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"summarydata\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biolabel\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namsex\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bionationality\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namsex\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bionationality\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthlatestdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthearliestdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthlatestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthearliestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathearliestdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"internalrecordnumber\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"summarydata\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"internalrecordnumber\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"summarydata\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathearliestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathlatestdate\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathplace\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathlatestdate\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biodeathplace\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthplace\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bioethnicity\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biobirthplace\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"bioethnicity\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"biolabel\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"}]}]\"
             }
         ],
         \"tags\": [\"Transformation\"]
@@ -327,7 +327,7 @@ _:node1b3vt9n91x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"}]}]\"
             }
         ],
         \"tags\": [\"Transformation\"]
@@ -382,7 +382,7 @@ _:node1b3vt9n91x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"inputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\"}]}]\"
             },
             {
                 \"name\": \"outputColumns\",
@@ -641,7 +641,7 @@ _:node1b3vt9n91x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_biodeathdate_Values\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_biodeathdate_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"}]}]\"
             }
         ],
         \"tags\": [\"Transformation\"]
@@ -696,7 +696,7 @@ _:node1b3vt9n91x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"inputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_biodeathdate_Values\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_biodeathdate_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"Glue_2\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri\\\"}]}]\"
             },
             {
                 \"name\": \"outputColumns\",
@@ -819,6 +819,66 @@ _:node1b3vt9n91x1 a km-dev:R2RMLMapping ;
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
                 \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"namfullname\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"name_duplicate\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return getValue(\\\"Values\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"name_duplicate\\\"}]}]\"
             }
         ],
         \"tags\": [\"Transformation\"]
@@ -2282,6 +2342,166 @@ _:node1b3vt9n91x1 a km-dev:R2RMLMapping ;
         \"tags\": [\"SemanticType\"]
     },
     {
+        \"commandName\": \"AddLiteralNodeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"literalValue\",
+                \"type\": \"other\",
+                \"value\": \"http://vocab.getty.edu/aat/300404670\"
+            },
+            {
+                \"name\": \"literalType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"nodeId\",
+                \"type\": \"other\",
+                \"value\": \"aat:3004046701\"
+            },
+            {
+                \"name\": \"isUri\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"namfullname\"},
+                    {\"columnName\": \"name_duplicate\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\",
+                    \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"crm:E39_Actor1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"name_duplicate\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"namfullname\\\"},{\\\"columnName\\\":\\\"name_duplicate\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLiteralNodeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"literalValue\",
+                \"type\": \"other\",
+                \"value\": \"http://vocab.getty.edu/aat/300379842\"
+            },
+            {
+                \"name\": \"literalType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"nodeId\",
+                \"type\": \"other\",
+                \"value\": \"aat:3003798421\"
+            },
+            {
+                \"name\": \"isUri\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
         \"commandName\": \"ChangeInternalNodeLinksCommand\",
         \"model\": \"new\",
         \"inputParameters\": [
@@ -2801,611 +3021,628 @@ _:node1b3vt9n91x1 a km-dev:R2RMLMapping ;
     }
 ]""" .
 
-km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 a rr:TriplesMap .
+km-dev:TriplesMap_a76a9262-8049-4d3f-8f69-032c62f9f213 a rr:TriplesMap .
 
-_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 .
+_:node1b44hhgejx1 km-dev:hasTriplesMap km-dev:TriplesMap_a76a9262-8049-4d3f-8f69-032c62f9f213 .
 
-km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:TriplesMap_a76a9262-8049-4d3f-8f69-032c62f9f213 km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x2 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+_:node1b44hhgejx2 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x2 .
+_:node1b44hhgejx1 km-dev:hasLogicalTable _:node1b44hhgejx2 .
 
-km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 rr:logicalTable _:node1b3vt9n91x2 ;
-	rr:subjectMap _:node1b3vt9n91x3 .
+km-dev:TriplesMap_a76a9262-8049-4d3f-8f69-032c62f9f213 rr:logicalTable _:node1b44hhgejx2 ;
+	rr:subjectMap _:node1b44hhgejx3 .
 
-_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x3 .
+_:node1b44hhgejx1 km-dev:hasSubjectMap _:node1b44hhgejx3 .
 
-_:node1b3vt9n91x3 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+_:node1b44hhgejx3 km-dev:isPartOfMapping _:node1b44hhgejx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E39_Actor1" ;
 	rr:class crm:E39_Actor ;
 	rr:template "object/{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"internalrecordnumber\",\"Values\"]}" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_2305916c-41b9-4ae3-970d-184db6ead4cb rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_45c1be0d-5043-4bee-8041-7974ad3f1bde rr:predicate crm:P2_has_type .
 
-km-dev:RefObjectMap_2e894371-afbb-4d4d-802e-d56f3dc58966 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_e558d12e-b344-414e-8fa7-64af8c5bc4fe ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:RefObjectMap_9bce06fa-39cd-4e77-9767-668750dab6df a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_5708bff1-0fef-4ded-8ba7-d22a67f29277 ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_2e894371-afbb-4d4d-802e-d56f3dc58966 .
+_:node1b44hhgejx1 km-dev:hasObjectMap km-dev:RefObjectMap_9bce06fa-39cd-4e77-9767-668750dab6df .
 
-km-dev:PredicateObjectMap_2305916c-41b9-4ae3-970d-184db6ead4cb rr:objectMap km-dev:RefObjectMap_2e894371-afbb-4d4d-802e-d56f3dc58966 .
+km-dev:PredicateObjectMap_45c1be0d-5043-4bee-8041-7974ad3f1bde rr:objectMap km-dev:RefObjectMap_9bce06fa-39cd-4e77-9767-668750dab6df .
 
-km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 rr:predicateObjectMap km-dev:PredicateObjectMap_2305916c-41b9-4ae3-970d-184db6ead4cb .
+km-dev:TriplesMap_a76a9262-8049-4d3f-8f69-032c62f9f213 rr:predicateObjectMap km-dev:PredicateObjectMap_45c1be0d-5043-4bee-8041-7974ad3f1bde .
 
-km-dev:PredicateObjectMap_2305916c-41b9-4ae3-970d-184db6ead4cb a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_45c1be0d-5043-4bee-8041-7974ad3f1bde a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2305916c-41b9-4ae3-970d-184db6ead4cb .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_45c1be0d-5043-4bee-8041-7974ad3f1bde .
 
-km-dev:PredicateObjectMap_592e8ce9-f509-459e-b86b-2c91baf331df rr:predicate crm:P92i_was_brought_into_existence_by .
+km-dev:PredicateObjectMap_dac35eed-2f95-4c71-9115-32d1f78a9c07 rr:predicate crm:P92i_was_brought_into_existence_by .
 
-km-dev:RefObjectMap_369e9314-f57b-4ee5-9b6b-5bf693d81bd1 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:RefObjectMap_18ecced5-c0ce-4589-a665-3cae65440e7e a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f65eb3df-2eb7-46d9-a7c3-ddc652faf286 ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_369e9314-f57b-4ee5-9b6b-5bf693d81bd1 .
+_:node1b44hhgejx1 km-dev:hasObjectMap km-dev:RefObjectMap_18ecced5-c0ce-4589-a665-3cae65440e7e .
 
-km-dev:PredicateObjectMap_592e8ce9-f509-459e-b86b-2c91baf331df rr:objectMap km-dev:RefObjectMap_369e9314-f57b-4ee5-9b6b-5bf693d81bd1 .
+km-dev:PredicateObjectMap_dac35eed-2f95-4c71-9115-32d1f78a9c07 rr:objectMap km-dev:RefObjectMap_18ecced5-c0ce-4589-a665-3cae65440e7e .
 
-km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 rr:predicateObjectMap km-dev:PredicateObjectMap_592e8ce9-f509-459e-b86b-2c91baf331df .
+km-dev:TriplesMap_a76a9262-8049-4d3f-8f69-032c62f9f213 rr:predicateObjectMap km-dev:PredicateObjectMap_dac35eed-2f95-4c71-9115-32d1f78a9c07 .
 
-km-dev:PredicateObjectMap_592e8ce9-f509-459e-b86b-2c91baf331df a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_dac35eed-2f95-4c71-9115-32d1f78a9c07 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_592e8ce9-f509-459e-b86b-2c91baf331df .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_dac35eed-2f95-4c71-9115-32d1f78a9c07 .
 
-km-dev:PredicateObjectMap_648d1bdd-2828-4508-8de1-63fcf2c12f8f rr:predicate crm:P93i_was_taken_out_of_existence_by .
+km-dev:PredicateObjectMap_1803f720-8788-45f2-917f-c3d651ba8eda rr:predicate crm:P93i_was_taken_out_of_existence_by .
 
-km-dev:RefObjectMap_91f03218-67e1-423a-b8c4-042feb3318c4 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:RefObjectMap_4a98b9c8-938f-4fb0-95d5-4a29440cb305 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f724a4ce-da59-461f-8fc4-7dbdf28ed0ef ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_91f03218-67e1-423a-b8c4-042feb3318c4 .
+_:node1b44hhgejx1 km-dev:hasObjectMap km-dev:RefObjectMap_4a98b9c8-938f-4fb0-95d5-4a29440cb305 .
 
-km-dev:PredicateObjectMap_648d1bdd-2828-4508-8de1-63fcf2c12f8f rr:objectMap km-dev:RefObjectMap_91f03218-67e1-423a-b8c4-042feb3318c4 .
+km-dev:PredicateObjectMap_1803f720-8788-45f2-917f-c3d651ba8eda rr:objectMap km-dev:RefObjectMap_4a98b9c8-938f-4fb0-95d5-4a29440cb305 .
 
-km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 rr:predicateObjectMap km-dev:PredicateObjectMap_648d1bdd-2828-4508-8de1-63fcf2c12f8f .
+km-dev:TriplesMap_a76a9262-8049-4d3f-8f69-032c62f9f213 rr:predicateObjectMap km-dev:PredicateObjectMap_1803f720-8788-45f2-917f-c3d651ba8eda .
 
-km-dev:PredicateObjectMap_648d1bdd-2828-4508-8de1-63fcf2c12f8f a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_1803f720-8788-45f2-917f-c3d651ba8eda a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_648d1bdd-2828-4508-8de1-63fcf2c12f8f .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1803f720-8788-45f2-917f-c3d651ba8eda .
 
-km-dev:PredicateObjectMap_210d924b-a3af-4921-8b1c-cde0c7f75000 rr:predicate crm:P107i_is_current_or_former_member_of .
+km-dev:PredicateObjectMap_43c85b49-1f71-45d7-8e44-5dac0bacb71c rr:predicate crm:P107i_is_current_or_former_member_of .
 
-km-dev:RefObjectMap_62321a9f-fc79-455d-a2a5-db79dca1ea04 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:RefObjectMap_3cef1899-1bd4-4b6e-b3b2-622b795809fb a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_a8f88d25-6b0a-4363-823f-cb4040e217c6 ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_62321a9f-fc79-455d-a2a5-db79dca1ea04 .
+_:node1b44hhgejx1 km-dev:hasObjectMap km-dev:RefObjectMap_3cef1899-1bd4-4b6e-b3b2-622b795809fb .
 
-km-dev:PredicateObjectMap_210d924b-a3af-4921-8b1c-cde0c7f75000 rr:objectMap km-dev:RefObjectMap_62321a9f-fc79-455d-a2a5-db79dca1ea04 .
+km-dev:PredicateObjectMap_43c85b49-1f71-45d7-8e44-5dac0bacb71c rr:objectMap km-dev:RefObjectMap_3cef1899-1bd4-4b6e-b3b2-622b795809fb .
 
-km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 rr:predicateObjectMap km-dev:PredicateObjectMap_210d924b-a3af-4921-8b1c-cde0c7f75000 .
+km-dev:TriplesMap_a76a9262-8049-4d3f-8f69-032c62f9f213 rr:predicateObjectMap km-dev:PredicateObjectMap_43c85b49-1f71-45d7-8e44-5dac0bacb71c .
 
-km-dev:PredicateObjectMap_210d924b-a3af-4921-8b1c-cde0c7f75000 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_43c85b49-1f71-45d7-8e44-5dac0bacb71c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_210d924b-a3af-4921-8b1c-cde0c7f75000 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_43c85b49-1f71-45d7-8e44-5dac0bacb71c .
 
-km-dev:PredicateObjectMap_6591df66-af7a-4241-a61a-100ab46caa72 rr:predicate crm:P1_is_identified_by .
+km-dev:PredicateObjectMap_035970a8-32d9-480f-92a7-dc2f9f1d432c rr:predicate crm:P1_is_identified_by .
 
-km-dev:RefObjectMap_b3918a45-b24c-4061-91c7-e174bb46b040 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:RefObjectMap_ab49de24-6d37-4f6b-a3d9-2f6389703125 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_5f758127-8d59-4c2d-b3b4-1c1453ad8456 ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_b3918a45-b24c-4061-91c7-e174bb46b040 .
+_:node1b44hhgejx1 km-dev:hasObjectMap km-dev:RefObjectMap_ab49de24-6d37-4f6b-a3d9-2f6389703125 .
 
-km-dev:PredicateObjectMap_6591df66-af7a-4241-a61a-100ab46caa72 rr:objectMap km-dev:RefObjectMap_b3918a45-b24c-4061-91c7-e174bb46b040 .
+km-dev:PredicateObjectMap_035970a8-32d9-480f-92a7-dc2f9f1d432c rr:objectMap km-dev:RefObjectMap_ab49de24-6d37-4f6b-a3d9-2f6389703125 .
 
-km-dev:TriplesMap_8027ea0b-56e8-4730-9272-180db8fcc050 rr:predicateObjectMap km-dev:PredicateObjectMap_6591df66-af7a-4241-a61a-100ab46caa72 .
+km-dev:TriplesMap_a76a9262-8049-4d3f-8f69-032c62f9f213 rr:predicateObjectMap km-dev:PredicateObjectMap_035970a8-32d9-480f-92a7-dc2f9f1d432c .
 
-km-dev:PredicateObjectMap_6591df66-af7a-4241-a61a-100ab46caa72 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_035970a8-32d9-480f-92a7-dc2f9f1d432c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6591df66-af7a-4241-a61a-100ab46caa72 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_035970a8-32d9-480f-92a7-dc2f9f1d432c .
 
-km-dev:TriplesMap_e558d12e-b344-414e-8fa7-64af8c5bc4fe a rr:TriplesMap .
+km-dev:PredicateObjectMap_ffb75e74-b534-4a5f-8503-61c6b48c3ed6 rr:predicate rdfs:label .
 
-_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_e558d12e-b344-414e-8fa7-64af8c5bc4fe .
+_:node1b44hhgejx4 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"namfullname\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-km-dev:TriplesMap_e558d12e-b344-414e-8fa7-64af8c5bc4fe km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx4 .
 
-_:node1b3vt9n91x4 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+km-dev:PredicateObjectMap_ffb75e74-b534-4a5f-8503-61c6b48c3ed6 rr:objectMap _:node1b44hhgejx4 .
+
+km-dev:TriplesMap_a76a9262-8049-4d3f-8f69-032c62f9f213 rr:predicateObjectMap km-dev:PredicateObjectMap_ffb75e74-b534-4a5f-8503-61c6b48c3ed6 .
+
+km-dev:PredicateObjectMap_ffb75e74-b534-4a5f-8503-61c6b48c3ed6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
+
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ffb75e74-b534-4a5f-8503-61c6b48c3ed6 .
+
+km-dev:TriplesMap_5708bff1-0fef-4ded-8ba7-d22a67f29277 a rr:TriplesMap .
+
+_:node1b44hhgejx1 km-dev:hasTriplesMap km-dev:TriplesMap_5708bff1-0fef-4ded-8ba7-d22a67f29277 .
+
+km-dev:TriplesMap_5708bff1-0fef-4ded-8ba7-d22a67f29277 km-dev:isPartOfMapping _:node1b44hhgejx1 .
+
+_:node1b44hhgejx5 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x4 .
+_:node1b44hhgejx1 km-dev:hasLogicalTable _:node1b44hhgejx5 .
 
-km-dev:TriplesMap_e558d12e-b344-414e-8fa7-64af8c5bc4fe rr:logicalTable _:node1b3vt9n91x4 ;
-	rr:subjectMap _:node1b3vt9n91x5 .
+km-dev:TriplesMap_5708bff1-0fef-4ded-8ba7-d22a67f29277 rr:logicalTable _:node1b44hhgejx5 ;
+	rr:subjectMap _:node1b44hhgejx6 .
 
-_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x5 .
+_:node1b44hhgejx1 km-dev:hasSubjectMap _:node1b44hhgejx6 .
 
-_:node1b3vt9n91x5 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+_:node1b44hhgejx6 km-dev:isPartOfMapping _:node1b44hhgejx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type1" ;
 	rr:class crm:E55_Type ;
 	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"namsex\",\"sex_uri\"]}" .
 
-km-dev:PredicateObjectMap_d488db94-f600-4aa7-a6e1-d7f306debd31 rr:predicate skos:prefLabel .
+km-dev:PredicateObjectMap_8ebc0cca-d671-45fb-aa14-710be91db8e7 rr:predicate skos:prefLabel .
 
-_:node1b3vt9n91x6 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"namsex\",\"Values\"]" ;
+_:node1b44hhgejx7 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"namsex\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x6 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx7 .
 
-km-dev:PredicateObjectMap_d488db94-f600-4aa7-a6e1-d7f306debd31 rr:objectMap _:node1b3vt9n91x6 .
+km-dev:PredicateObjectMap_8ebc0cca-d671-45fb-aa14-710be91db8e7 rr:objectMap _:node1b44hhgejx7 .
 
-km-dev:TriplesMap_e558d12e-b344-414e-8fa7-64af8c5bc4fe rr:predicateObjectMap km-dev:PredicateObjectMap_d488db94-f600-4aa7-a6e1-d7f306debd31 .
+km-dev:TriplesMap_5708bff1-0fef-4ded-8ba7-d22a67f29277 rr:predicateObjectMap km-dev:PredicateObjectMap_8ebc0cca-d671-45fb-aa14-710be91db8e7 .
 
-km-dev:PredicateObjectMap_d488db94-f600-4aa7-a6e1-d7f306debd31 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_8ebc0cca-d671-45fb-aa14-710be91db8e7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d488db94-f600-4aa7-a6e1-d7f306debd31 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8ebc0cca-d671-45fb-aa14-710be91db8e7 .
 
-km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 a rr:TriplesMap .
+km-dev:TriplesMap_f65eb3df-2eb7-46d9-a7c3-ddc652faf286 a rr:TriplesMap .
 
-_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 .
+_:node1b44hhgejx1 km-dev:hasTriplesMap km-dev:TriplesMap_f65eb3df-2eb7-46d9-a7c3-ddc652faf286 .
 
-km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:TriplesMap_f65eb3df-2eb7-46d9-a7c3-ddc652faf286 km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x7 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+_:node1b44hhgejx8 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x7 .
+_:node1b44hhgejx1 km-dev:hasLogicalTable _:node1b44hhgejx8 .
 
-km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 rr:logicalTable _:node1b3vt9n91x7 ;
-	rr:subjectMap _:node1b3vt9n91x8 .
+km-dev:TriplesMap_f65eb3df-2eb7-46d9-a7c3-ddc652faf286 rr:logicalTable _:node1b44hhgejx8 ;
+	rr:subjectMap _:node1b44hhgejx9 .
 
-_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x8 .
+_:node1b44hhgejx1 km-dev:hasSubjectMap _:node1b44hhgejx9 .
 
-_:node1b3vt9n91x8 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+_:node1b44hhgejx9 km-dev:isPartOfMapping _:node1b44hhgejx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence1" ;
 	rr:class crm:E63_Beginning_of_Existence ;
 	rr:termType rr:BlankNode ;
 	km-dev:namePrefix "crm:E63_Beginning_of_Existence1" .
 
-km-dev:PredicateObjectMap_22b48487-49b2-4729-babb-65d959be180d rr:predicate crm:P4_has_time-span .
+km-dev:PredicateObjectMap_41df5007-f93d-47a4-bf43-b87b41a49cba rr:predicate crm:P4_has_time-span .
 
-km-dev:RefObjectMap_c7b47c49-bd06-4508-a37f-b9c2cba5f438 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:RefObjectMap_1497b9bc-71be-4b18-8a7f-ea7c6419cc21 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_68850e85-0304-4446-88a2-dab7b043656f ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_c7b47c49-bd06-4508-a37f-b9c2cba5f438 .
+_:node1b44hhgejx1 km-dev:hasObjectMap km-dev:RefObjectMap_1497b9bc-71be-4b18-8a7f-ea7c6419cc21 .
 
-km-dev:PredicateObjectMap_22b48487-49b2-4729-babb-65d959be180d rr:objectMap km-dev:RefObjectMap_c7b47c49-bd06-4508-a37f-b9c2cba5f438 .
+km-dev:PredicateObjectMap_41df5007-f93d-47a4-bf43-b87b41a49cba rr:objectMap km-dev:RefObjectMap_1497b9bc-71be-4b18-8a7f-ea7c6419cc21 .
 
-km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 rr:predicateObjectMap km-dev:PredicateObjectMap_22b48487-49b2-4729-babb-65d959be180d .
+km-dev:TriplesMap_f65eb3df-2eb7-46d9-a7c3-ddc652faf286 rr:predicateObjectMap km-dev:PredicateObjectMap_41df5007-f93d-47a4-bf43-b87b41a49cba .
 
-km-dev:PredicateObjectMap_22b48487-49b2-4729-babb-65d959be180d a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_41df5007-f93d-47a4-bf43-b87b41a49cba a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_22b48487-49b2-4729-babb-65d959be180d .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_41df5007-f93d-47a4-bf43-b87b41a49cba .
 
-km-dev:PredicateObjectMap_edf77b26-2597-40aa-b321-6b2a83566ed4 rr:predicate crm:P7_took_place_at .
+km-dev:PredicateObjectMap_db2f6075-ca65-446c-84e2-6149d7af6c10 rr:predicate crm:P7_took_place_at .
 
-km-dev:RefObjectMap_0018058c-119c-4acc-92a4-ba173cb6f261 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_2dc16f16-918f-4865-8da4-63ce6f0e9009 ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:RefObjectMap_483c00f9-ed6d-426d-b2f4-08e8a5d292f9 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_9028db3b-be90-46e0-862c-797433d1834e ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_0018058c-119c-4acc-92a4-ba173cb6f261 .
+_:node1b44hhgejx1 km-dev:hasObjectMap km-dev:RefObjectMap_483c00f9-ed6d-426d-b2f4-08e8a5d292f9 .
 
-km-dev:PredicateObjectMap_edf77b26-2597-40aa-b321-6b2a83566ed4 rr:objectMap km-dev:RefObjectMap_0018058c-119c-4acc-92a4-ba173cb6f261 .
+km-dev:PredicateObjectMap_db2f6075-ca65-446c-84e2-6149d7af6c10 rr:objectMap km-dev:RefObjectMap_483c00f9-ed6d-426d-b2f4-08e8a5d292f9 .
 
-km-dev:TriplesMap_148ba803-6e3a-47ff-b772-c9be9a4170e5 rr:predicateObjectMap km-dev:PredicateObjectMap_edf77b26-2597-40aa-b321-6b2a83566ed4 .
+km-dev:TriplesMap_f65eb3df-2eb7-46d9-a7c3-ddc652faf286 rr:predicateObjectMap km-dev:PredicateObjectMap_db2f6075-ca65-446c-84e2-6149d7af6c10 .
 
-km-dev:PredicateObjectMap_edf77b26-2597-40aa-b321-6b2a83566ed4 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_db2f6075-ca65-446c-84e2-6149d7af6c10 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_edf77b26-2597-40aa-b321-6b2a83566ed4 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_db2f6075-ca65-446c-84e2-6149d7af6c10 .
 
-km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e a rr:TriplesMap .
+km-dev:TriplesMap_f724a4ce-da59-461f-8fc4-7dbdf28ed0ef a rr:TriplesMap .
 
-_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e .
+_:node1b44hhgejx1 km-dev:hasTriplesMap km-dev:TriplesMap_f724a4ce-da59-461f-8fc4-7dbdf28ed0ef .
 
-km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:TriplesMap_f724a4ce-da59-461f-8fc4-7dbdf28ed0ef km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x9 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+_:node1b44hhgejx10 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x9 .
+_:node1b44hhgejx1 km-dev:hasLogicalTable _:node1b44hhgejx10 .
 
-km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e rr:logicalTable _:node1b3vt9n91x9 ;
-	rr:subjectMap _:node1b3vt9n91x10 .
+km-dev:TriplesMap_f724a4ce-da59-461f-8fc4-7dbdf28ed0ef rr:logicalTable _:node1b44hhgejx10 ;
+	rr:subjectMap _:node1b44hhgejx11 .
 
-_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x10 .
+_:node1b44hhgejx1 km-dev:hasSubjectMap _:node1b44hhgejx11 .
 
-_:node1b3vt9n91x10 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+_:node1b44hhgejx11 km-dev:isPartOfMapping _:node1b44hhgejx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence1" ;
 	rr:class crm:E64_End_of_Existence ;
 	rr:termType rr:BlankNode ;
 	km-dev:namePrefix "crm:E64_End_of_Existence1" .
 
-km-dev:PredicateObjectMap_5c7e614a-e6cd-4da6-a7f3-643b7718a8b9 rr:predicate crm:P4_has_time-span .
+km-dev:PredicateObjectMap_68668e65-756b-41f9-b31e-72f83f978f44 rr:predicate crm:P4_has_time-span .
 
-km-dev:RefObjectMap_bce2290a-5fee-473a-9be0-ef340452e369 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:RefObjectMap_478e2db6-22e9-472b-a8bc-879b08dd396e a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_2f1872d5-de2e-4839-a7ff-a8a6d3c8af74 ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_bce2290a-5fee-473a-9be0-ef340452e369 .
+_:node1b44hhgejx1 km-dev:hasObjectMap km-dev:RefObjectMap_478e2db6-22e9-472b-a8bc-879b08dd396e .
 
-km-dev:PredicateObjectMap_5c7e614a-e6cd-4da6-a7f3-643b7718a8b9 rr:objectMap km-dev:RefObjectMap_bce2290a-5fee-473a-9be0-ef340452e369 .
+km-dev:PredicateObjectMap_68668e65-756b-41f9-b31e-72f83f978f44 rr:objectMap km-dev:RefObjectMap_478e2db6-22e9-472b-a8bc-879b08dd396e .
 
-km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e rr:predicateObjectMap km-dev:PredicateObjectMap_5c7e614a-e6cd-4da6-a7f3-643b7718a8b9 .
+km-dev:TriplesMap_f724a4ce-da59-461f-8fc4-7dbdf28ed0ef rr:predicateObjectMap km-dev:PredicateObjectMap_68668e65-756b-41f9-b31e-72f83f978f44 .
 
-km-dev:PredicateObjectMap_5c7e614a-e6cd-4da6-a7f3-643b7718a8b9 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_68668e65-756b-41f9-b31e-72f83f978f44 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5c7e614a-e6cd-4da6-a7f3-643b7718a8b9 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_68668e65-756b-41f9-b31e-72f83f978f44 .
 
-km-dev:PredicateObjectMap_330b61db-4065-4967-a459-7541ddb3bb7e rr:predicate crm:P7_took_place_at .
+km-dev:PredicateObjectMap_5c8425e8-6e6d-4027-92a7-0e61e9703fa0 rr:predicate crm:P7_took_place_at .
 
-km-dev:RefObjectMap_71794c4e-7dfc-4945-aae5-1b9b126674be a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_19686a66-a84c-4ad4-a406-291e81d0f968 ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:RefObjectMap_5569994d-89f3-4e58-878f-dcf1f2a54b08 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_5f3bbc92-5ab6-4e80-b45f-a5b792c4b7df ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap km-dev:RefObjectMap_71794c4e-7dfc-4945-aae5-1b9b126674be .
+_:node1b44hhgejx1 km-dev:hasObjectMap km-dev:RefObjectMap_5569994d-89f3-4e58-878f-dcf1f2a54b08 .
 
-km-dev:PredicateObjectMap_330b61db-4065-4967-a459-7541ddb3bb7e rr:objectMap km-dev:RefObjectMap_71794c4e-7dfc-4945-aae5-1b9b126674be .
+km-dev:PredicateObjectMap_5c8425e8-6e6d-4027-92a7-0e61e9703fa0 rr:objectMap km-dev:RefObjectMap_5569994d-89f3-4e58-878f-dcf1f2a54b08 .
 
-km-dev:TriplesMap_d2b663d3-7673-4b62-8ce8-996f434d3e4e rr:predicateObjectMap km-dev:PredicateObjectMap_330b61db-4065-4967-a459-7541ddb3bb7e .
+km-dev:TriplesMap_f724a4ce-da59-461f-8fc4-7dbdf28ed0ef rr:predicateObjectMap km-dev:PredicateObjectMap_5c8425e8-6e6d-4027-92a7-0e61e9703fa0 .
 
-km-dev:PredicateObjectMap_330b61db-4065-4967-a459-7541ddb3bb7e a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_5c8425e8-6e6d-4027-92a7-0e61e9703fa0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_330b61db-4065-4967-a459-7541ddb3bb7e .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5c8425e8-6e6d-4027-92a7-0e61e9703fa0 .
 
-km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 a rr:TriplesMap .
+km-dev:TriplesMap_a8f88d25-6b0a-4363-823f-cb4040e217c6 a rr:TriplesMap .
 
-_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 .
+_:node1b44hhgejx1 km-dev:hasTriplesMap km-dev:TriplesMap_a8f88d25-6b0a-4363-823f-cb4040e217c6 .
 
-km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:TriplesMap_a8f88d25-6b0a-4363-823f-cb4040e217c6 km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x11 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+_:node1b44hhgejx12 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x11 .
+_:node1b44hhgejx1 km-dev:hasLogicalTable _:node1b44hhgejx12 .
 
-km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 rr:logicalTable _:node1b3vt9n91x11 ;
-	rr:subjectMap _:node1b3vt9n91x12 .
+km-dev:TriplesMap_a8f88d25-6b0a-4363-823f-cb4040e217c6 rr:logicalTable _:node1b44hhgejx12 ;
+	rr:subjectMap _:node1b44hhgejx13 .
 
-_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x12 .
+_:node1b44hhgejx1 km-dev:hasSubjectMap _:node1b44hhgejx13 .
 
-_:node1b3vt9n91x12 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+_:node1b44hhgejx13 km-dev:isPartOfMapping _:node1b44hhgejx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E74_Group1" ;
 	rr:class crm:E74_Group ;
 	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"bionationality\",\"nationality_uri\"]}" .
 
-km-dev:PredicateObjectMap_f57e34fc-c68a-479b-9d37-0321740b90f1 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_f5635d93-c854-42ef-b10f-753f19647418 rr:predicate rdfs:label .
 
-_:node1b3vt9n91x13 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"bionationality\",\"Values\"]" ;
+_:node1b44hhgejx14 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"bionationality\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x13 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx14 .
 
-km-dev:PredicateObjectMap_f57e34fc-c68a-479b-9d37-0321740b90f1 rr:objectMap _:node1b3vt9n91x13 .
+km-dev:PredicateObjectMap_f5635d93-c854-42ef-b10f-753f19647418 rr:objectMap _:node1b44hhgejx14 .
 
-km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 rr:predicateObjectMap km-dev:PredicateObjectMap_f57e34fc-c68a-479b-9d37-0321740b90f1 .
+km-dev:TriplesMap_a8f88d25-6b0a-4363-823f-cb4040e217c6 rr:predicateObjectMap km-dev:PredicateObjectMap_f5635d93-c854-42ef-b10f-753f19647418 .
 
-km-dev:PredicateObjectMap_f57e34fc-c68a-479b-9d37-0321740b90f1 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_f5635d93-c854-42ef-b10f-753f19647418 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f57e34fc-c68a-479b-9d37-0321740b90f1 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f5635d93-c854-42ef-b10f-753f19647418 .
 
-km-dev:PredicateObjectMap_4ecb8d3f-bdcf-4fc9-a018-e85f81b582f1 rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_7c54175c-b827-4a17-b7c2-856c473b1a05 rr:predicate crm:P2_has_type .
 
-_:node1b3vt9n91x14 rr:constant "aat:300379842" ;
+_:node1b44hhgejx15 rr:constant <http://vocab.getty.edu/aat/300379842> ;
 	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x14 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx15 .
 
-km-dev:PredicateObjectMap_4ecb8d3f-bdcf-4fc9-a018-e85f81b582f1 rr:objectMap _:node1b3vt9n91x14 .
+km-dev:PredicateObjectMap_7c54175c-b827-4a17-b7c2-856c473b1a05 rr:objectMap _:node1b44hhgejx15 .
 
-km-dev:TriplesMap_dc6095c0-b07a-40d3-aadb-2dc64f0cb639 rr:predicateObjectMap km-dev:PredicateObjectMap_4ecb8d3f-bdcf-4fc9-a018-e85f81b582f1 .
+km-dev:TriplesMap_a8f88d25-6b0a-4363-823f-cb4040e217c6 rr:predicateObjectMap km-dev:PredicateObjectMap_7c54175c-b827-4a17-b7c2-856c473b1a05 .
 
-km-dev:PredicateObjectMap_4ecb8d3f-bdcf-4fc9-a018-e85f81b582f1 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_7c54175c-b827-4a17-b7c2-856c473b1a05 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4ecb8d3f-bdcf-4fc9-a018-e85f81b582f1 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7c54175c-b827-4a17-b7c2-856c473b1a05 .
 
-km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba a rr:TriplesMap .
+km-dev:TriplesMap_5f758127-8d59-4c2d-b3b4-1c1453ad8456 a rr:TriplesMap .
 
-_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba .
+_:node1b44hhgejx1 km-dev:hasTriplesMap km-dev:TriplesMap_5f758127-8d59-4c2d-b3b4-1c1453ad8456 .
 
-km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:TriplesMap_5f758127-8d59-4c2d-b3b4-1c1453ad8456 km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x15 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+_:node1b44hhgejx16 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x15 .
+_:node1b44hhgejx1 km-dev:hasLogicalTable _:node1b44hhgejx16 .
 
-km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba rr:logicalTable _:node1b3vt9n91x15 ;
-	rr:subjectMap _:node1b3vt9n91x16 .
+km-dev:TriplesMap_5f758127-8d59-4c2d-b3b4-1c1453ad8456 rr:logicalTable _:node1b44hhgejx16 ;
+	rr:subjectMap _:node1b44hhgejx17 .
 
-_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x16 .
+_:node1b44hhgejx1 km-dev:hasSubjectMap _:node1b44hhgejx17 .
 
-_:node1b3vt9n91x16 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+_:node1b44hhgejx17 km-dev:isPartOfMapping _:node1b44hhgejx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation1" ;
 	rr:class crm:E82_Actor_Appellation ;
 	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"namfullname\",\"artist_name_uri\"]}" .
 
-km-dev:PredicateObjectMap_474982a2-7c99-4d27-9d57-91f213d7e2f6 rr:predicate rdf:value .
+km-dev:PredicateObjectMap_63dc21b9-96d6-44b3-9a5a-543e13aa19e5 rr:predicate rdf:value .
 
-_:node1b3vt9n91x17 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"namfullname\",\"Values\"]" ;
+_:node1b44hhgejx18 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"namfullname\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x17 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx18 .
 
-km-dev:PredicateObjectMap_474982a2-7c99-4d27-9d57-91f213d7e2f6 rr:objectMap _:node1b3vt9n91x17 .
+km-dev:PredicateObjectMap_63dc21b9-96d6-44b3-9a5a-543e13aa19e5 rr:objectMap _:node1b44hhgejx18 .
 
-km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba rr:predicateObjectMap km-dev:PredicateObjectMap_474982a2-7c99-4d27-9d57-91f213d7e2f6 .
+km-dev:TriplesMap_5f758127-8d59-4c2d-b3b4-1c1453ad8456 rr:predicateObjectMap km-dev:PredicateObjectMap_63dc21b9-96d6-44b3-9a5a-543e13aa19e5 .
 
-km-dev:PredicateObjectMap_474982a2-7c99-4d27-9d57-91f213d7e2f6 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_63dc21b9-96d6-44b3-9a5a-543e13aa19e5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_474982a2-7c99-4d27-9d57-91f213d7e2f6 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_63dc21b9-96d6-44b3-9a5a-543e13aa19e5 .
 
-km-dev:PredicateObjectMap_19df3f3c-013f-4221-bdb2-9d0a58554e37 rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_47022d4e-411d-4a95-ae4e-c9ffef2313f8 rr:predicate crm:P2_has_type .
 
-_:node1b3vt9n91x18 rr:constant "aat:300404670" ;
+_:node1b44hhgejx19 rr:constant <http://vocab.getty.edu/aat/300404670> ;
 	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x18 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx19 .
 
-km-dev:PredicateObjectMap_19df3f3c-013f-4221-bdb2-9d0a58554e37 rr:objectMap _:node1b3vt9n91x18 .
+km-dev:PredicateObjectMap_47022d4e-411d-4a95-ae4e-c9ffef2313f8 rr:objectMap _:node1b44hhgejx19 .
 
-km-dev:TriplesMap_bbb4440d-866d-43a1-8676-2cee1e4409ba rr:predicateObjectMap km-dev:PredicateObjectMap_19df3f3c-013f-4221-bdb2-9d0a58554e37 .
+km-dev:TriplesMap_5f758127-8d59-4c2d-b3b4-1c1453ad8456 rr:predicateObjectMap km-dev:PredicateObjectMap_47022d4e-411d-4a95-ae4e-c9ffef2313f8 .
 
-km-dev:PredicateObjectMap_19df3f3c-013f-4221-bdb2-9d0a58554e37 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_47022d4e-411d-4a95-ae4e-c9ffef2313f8 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_19df3f3c-013f-4221-bdb2-9d0a58554e37 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_47022d4e-411d-4a95-ae4e-c9ffef2313f8 .
 
-km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 a rr:TriplesMap .
+km-dev:TriplesMap_68850e85-0304-4446-88a2-dab7b043656f a rr:TriplesMap .
 
-_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 .
+_:node1b44hhgejx1 km-dev:hasTriplesMap km-dev:TriplesMap_68850e85-0304-4446-88a2-dab7b043656f .
 
-km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:TriplesMap_68850e85-0304-4446-88a2-dab7b043656f km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x19 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+_:node1b44hhgejx20 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x19 .
+_:node1b44hhgejx1 km-dev:hasLogicalTable _:node1b44hhgejx20 .
 
-km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 rr:logicalTable _:node1b3vt9n91x19 ;
-	rr:subjectMap _:node1b3vt9n91x20 .
+km-dev:TriplesMap_68850e85-0304-4446-88a2-dab7b043656f rr:logicalTable _:node1b44hhgejx20 ;
+	rr:subjectMap _:node1b44hhgejx21 .
 
-_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x20 .
+_:node1b44hhgejx1 km-dev:hasSubjectMap _:node1b44hhgejx21 .
 
-_:node1b3vt9n91x20 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+_:node1b44hhgejx21 km-dev:isPartOfMapping _:node1b44hhgejx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1" ;
 	rr:class crm:E52_Time-Span ;
 	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"Glue_1\",\"birthdate_uri\"]}" .
 
-km-dev:PredicateObjectMap_805ada10-3130-411b-b9c6-d459f97b058d rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_bb35fd91-8984-4403-977b-c0541a68600e rr:predicate rdfs:label .
 
-_:node1b3vt9n91x21 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthdate\",\"Values\"]" ;
+_:node1b44hhgejx22 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthdate\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x21 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx22 .
 
-km-dev:PredicateObjectMap_805ada10-3130-411b-b9c6-d459f97b058d rr:objectMap _:node1b3vt9n91x21 .
+km-dev:PredicateObjectMap_bb35fd91-8984-4403-977b-c0541a68600e rr:objectMap _:node1b44hhgejx22 .
 
-km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 rr:predicateObjectMap km-dev:PredicateObjectMap_805ada10-3130-411b-b9c6-d459f97b058d .
+km-dev:TriplesMap_68850e85-0304-4446-88a2-dab7b043656f rr:predicateObjectMap km-dev:PredicateObjectMap_bb35fd91-8984-4403-977b-c0541a68600e .
 
-km-dev:PredicateObjectMap_805ada10-3130-411b-b9c6-d459f97b058d a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_bb35fd91-8984-4403-977b-c0541a68600e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_805ada10-3130-411b-b9c6-d459f97b058d .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_bb35fd91-8984-4403-977b-c0541a68600e .
 
-km-dev:PredicateObjectMap_39ced915-3f9e-488f-a9fd-503e14d1b839 rr:predicate crm:P82a_begin_of_the_begin .
+km-dev:PredicateObjectMap_ded8a47b-be87-40ad-a940-d7a7d5f46569 rr:predicate crm:P82b_end_of_the_end .
 
-_:node1b3vt9n91x22 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthearliestdate\",\"Values\"]" ;
+_:node1b44hhgejx23 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthlatestdate\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x22 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx23 .
 
-km-dev:PredicateObjectMap_39ced915-3f9e-488f-a9fd-503e14d1b839 rr:objectMap _:node1b3vt9n91x22 .
+km-dev:PredicateObjectMap_ded8a47b-be87-40ad-a940-d7a7d5f46569 rr:objectMap _:node1b44hhgejx23 .
 
-km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 rr:predicateObjectMap km-dev:PredicateObjectMap_39ced915-3f9e-488f-a9fd-503e14d1b839 .
+km-dev:TriplesMap_68850e85-0304-4446-88a2-dab7b043656f rr:predicateObjectMap km-dev:PredicateObjectMap_ded8a47b-be87-40ad-a940-d7a7d5f46569 .
 
-km-dev:PredicateObjectMap_39ced915-3f9e-488f-a9fd-503e14d1b839 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_ded8a47b-be87-40ad-a940-d7a7d5f46569 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_39ced915-3f9e-488f-a9fd-503e14d1b839 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ded8a47b-be87-40ad-a940-d7a7d5f46569 .
 
-km-dev:PredicateObjectMap_f85ca3af-8861-4b9e-ab01-dde9a41e161b rr:predicate crm:P82b_end_of_the_end .
+km-dev:PredicateObjectMap_b2a070c2-6c62-4f03-bf24-44c31aa863e4 rr:predicate crm:P82a_begin_of_the_begin .
 
-_:node1b3vt9n91x23 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthlatestdate\",\"Values\"]" ;
+_:node1b44hhgejx24 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthearliestdate\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x23 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx24 .
 
-km-dev:PredicateObjectMap_f85ca3af-8861-4b9e-ab01-dde9a41e161b rr:objectMap _:node1b3vt9n91x23 .
+km-dev:PredicateObjectMap_b2a070c2-6c62-4f03-bf24-44c31aa863e4 rr:objectMap _:node1b44hhgejx24 .
 
-km-dev:TriplesMap_14bba330-0dc4-4902-bf0e-9d59aa6cead0 rr:predicateObjectMap km-dev:PredicateObjectMap_f85ca3af-8861-4b9e-ab01-dde9a41e161b .
+km-dev:TriplesMap_68850e85-0304-4446-88a2-dab7b043656f rr:predicateObjectMap km-dev:PredicateObjectMap_b2a070c2-6c62-4f03-bf24-44c31aa863e4 .
 
-km-dev:PredicateObjectMap_f85ca3af-8861-4b9e-ab01-dde9a41e161b a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_b2a070c2-6c62-4f03-bf24-44c31aa863e4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f85ca3af-8861-4b9e-ab01-dde9a41e161b .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b2a070c2-6c62-4f03-bf24-44c31aa863e4 .
 
-km-dev:TriplesMap_2dc16f16-918f-4865-8da4-63ce6f0e9009 a rr:TriplesMap .
+km-dev:TriplesMap_9028db3b-be90-46e0-862c-797433d1834e a rr:TriplesMap .
 
-_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_2dc16f16-918f-4865-8da4-63ce6f0e9009 .
+_:node1b44hhgejx1 km-dev:hasTriplesMap km-dev:TriplesMap_9028db3b-be90-46e0-862c-797433d1834e .
 
-km-dev:TriplesMap_2dc16f16-918f-4865-8da4-63ce6f0e9009 km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:TriplesMap_9028db3b-be90-46e0-862c-797433d1834e km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x24 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+_:node1b44hhgejx25 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x24 .
+_:node1b44hhgejx1 km-dev:hasLogicalTable _:node1b44hhgejx25 .
 
-km-dev:TriplesMap_2dc16f16-918f-4865-8da4-63ce6f0e9009 rr:logicalTable _:node1b3vt9n91x24 ;
-	rr:subjectMap _:node1b3vt9n91x25 .
+km-dev:TriplesMap_9028db3b-be90-46e0-862c-797433d1834e rr:logicalTable _:node1b44hhgejx25 ;
+	rr:subjectMap _:node1b44hhgejx26 .
 
-_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x25 .
+_:node1b44hhgejx1 km-dev:hasSubjectMap _:node1b44hhgejx26 .
 
-_:node1b3vt9n91x25 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+_:node1b44hhgejx26 km-dev:isPartOfMapping _:node1b44hhgejx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E53_Place1" ;
 	rr:class crm:E53_Place ;
 	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthplace\",\"birthplace_uri\"]}" .
 
-km-dev:PredicateObjectMap_aba8a69f-87fe-4a77-99a6-f9b5e25ba445 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_298cd1bf-a958-4ef1-9f3c-9bc9917e2be5 rr:predicate rdfs:label .
 
-_:node1b3vt9n91x26 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthplace\",\"Values\"]" ;
+_:node1b44hhgejx27 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biobirthplace\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x26 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx27 .
 
-km-dev:PredicateObjectMap_aba8a69f-87fe-4a77-99a6-f9b5e25ba445 rr:objectMap _:node1b3vt9n91x26 .
+km-dev:PredicateObjectMap_298cd1bf-a958-4ef1-9f3c-9bc9917e2be5 rr:objectMap _:node1b44hhgejx27 .
 
-km-dev:TriplesMap_2dc16f16-918f-4865-8da4-63ce6f0e9009 rr:predicateObjectMap km-dev:PredicateObjectMap_aba8a69f-87fe-4a77-99a6-f9b5e25ba445 .
+km-dev:TriplesMap_9028db3b-be90-46e0-862c-797433d1834e rr:predicateObjectMap km-dev:PredicateObjectMap_298cd1bf-a958-4ef1-9f3c-9bc9917e2be5 .
 
-km-dev:PredicateObjectMap_aba8a69f-87fe-4a77-99a6-f9b5e25ba445 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_298cd1bf-a958-4ef1-9f3c-9bc9917e2be5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_aba8a69f-87fe-4a77-99a6-f9b5e25ba445 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_298cd1bf-a958-4ef1-9f3c-9bc9917e2be5 .
 
-km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db a rr:TriplesMap .
+km-dev:TriplesMap_2f1872d5-de2e-4839-a7ff-a8a6d3c8af74 a rr:TriplesMap .
 
-_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db .
+_:node1b44hhgejx1 km-dev:hasTriplesMap km-dev:TriplesMap_2f1872d5-de2e-4839-a7ff-a8a6d3c8af74 .
 
-km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:TriplesMap_2f1872d5-de2e-4839-a7ff-a8a6d3c8af74 km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x27 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+_:node1b44hhgejx28 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x27 .
+_:node1b44hhgejx1 km-dev:hasLogicalTable _:node1b44hhgejx28 .
 
-km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db rr:logicalTable _:node1b3vt9n91x27 ;
-	rr:subjectMap _:node1b3vt9n91x28 .
+km-dev:TriplesMap_2f1872d5-de2e-4839-a7ff-a8a6d3c8af74 rr:logicalTable _:node1b44hhgejx28 ;
+	rr:subjectMap _:node1b44hhgejx29 .
 
-_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x28 .
+_:node1b44hhgejx1 km-dev:hasSubjectMap _:node1b44hhgejx29 .
 
-_:node1b3vt9n91x28 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+_:node1b44hhgejx29 km-dev:isPartOfMapping _:node1b44hhgejx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span2" ;
 	rr:class crm:E52_Time-Span ;
 	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"Glue_2\",\"deathdate_uri\"]}" .
 
-km-dev:PredicateObjectMap_89dca9fc-cbb7-4494-9919-899c4f312e6e rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_efebc2bd-ece7-4469-9f52-46d5f369d10f rr:predicate crm:P82a_begin_of_the_begin .
 
-_:node1b3vt9n91x29 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathdate\",\"Values\"]" ;
+_:node1b44hhgejx30 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathearliestdate\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x29 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx30 .
 
-km-dev:PredicateObjectMap_89dca9fc-cbb7-4494-9919-899c4f312e6e rr:objectMap _:node1b3vt9n91x29 .
+km-dev:PredicateObjectMap_efebc2bd-ece7-4469-9f52-46d5f369d10f rr:objectMap _:node1b44hhgejx30 .
 
-km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db rr:predicateObjectMap km-dev:PredicateObjectMap_89dca9fc-cbb7-4494-9919-899c4f312e6e .
+km-dev:TriplesMap_2f1872d5-de2e-4839-a7ff-a8a6d3c8af74 rr:predicateObjectMap km-dev:PredicateObjectMap_efebc2bd-ece7-4469-9f52-46d5f369d10f .
 
-km-dev:PredicateObjectMap_89dca9fc-cbb7-4494-9919-899c4f312e6e a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_efebc2bd-ece7-4469-9f52-46d5f369d10f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_89dca9fc-cbb7-4494-9919-899c4f312e6e .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_efebc2bd-ece7-4469-9f52-46d5f369d10f .
 
-km-dev:PredicateObjectMap_c7250617-231d-402d-ab47-6dde85f9a532 rr:predicate crm:P82b_end_of_the_end .
+km-dev:PredicateObjectMap_35432faf-4f7a-4147-98eb-691983fad2b4 rr:predicate rdfs:label .
 
-_:node1b3vt9n91x30 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathlatestdate\",\"Values\"]" ;
+_:node1b44hhgejx31 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathdate\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x30 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx31 .
 
-km-dev:PredicateObjectMap_c7250617-231d-402d-ab47-6dde85f9a532 rr:objectMap _:node1b3vt9n91x30 .
+km-dev:PredicateObjectMap_35432faf-4f7a-4147-98eb-691983fad2b4 rr:objectMap _:node1b44hhgejx31 .
 
-km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db rr:predicateObjectMap km-dev:PredicateObjectMap_c7250617-231d-402d-ab47-6dde85f9a532 .
+km-dev:TriplesMap_2f1872d5-de2e-4839-a7ff-a8a6d3c8af74 rr:predicateObjectMap km-dev:PredicateObjectMap_35432faf-4f7a-4147-98eb-691983fad2b4 .
 
-km-dev:PredicateObjectMap_c7250617-231d-402d-ab47-6dde85f9a532 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_35432faf-4f7a-4147-98eb-691983fad2b4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c7250617-231d-402d-ab47-6dde85f9a532 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_35432faf-4f7a-4147-98eb-691983fad2b4 .
 
-km-dev:PredicateObjectMap_7f79f142-9b20-4b42-9598-1c959a98fe21 rr:predicate crm:P82a_begin_of_the_begin .
+km-dev:PredicateObjectMap_a21a0e50-7941-4f12-9dcf-283168dc94fd rr:predicate crm:P82b_end_of_the_end .
 
-_:node1b3vt9n91x31 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathearliestdate\",\"Values\"]" ;
+_:node1b44hhgejx32 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathlatestdate\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x31 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx32 .
 
-km-dev:PredicateObjectMap_7f79f142-9b20-4b42-9598-1c959a98fe21 rr:objectMap _:node1b3vt9n91x31 .
+km-dev:PredicateObjectMap_a21a0e50-7941-4f12-9dcf-283168dc94fd rr:objectMap _:node1b44hhgejx32 .
 
-km-dev:TriplesMap_4b04337d-8182-42b7-8c51-228867bad3db rr:predicateObjectMap km-dev:PredicateObjectMap_7f79f142-9b20-4b42-9598-1c959a98fe21 .
+km-dev:TriplesMap_2f1872d5-de2e-4839-a7ff-a8a6d3c8af74 rr:predicateObjectMap km-dev:PredicateObjectMap_a21a0e50-7941-4f12-9dcf-283168dc94fd .
 
-km-dev:PredicateObjectMap_7f79f142-9b20-4b42-9598-1c959a98fe21 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_a21a0e50-7941-4f12-9dcf-283168dc94fd a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7f79f142-9b20-4b42-9598-1c959a98fe21 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a21a0e50-7941-4f12-9dcf-283168dc94fd .
 
-km-dev:TriplesMap_19686a66-a84c-4ad4-a406-291e81d0f968 a rr:TriplesMap .
+km-dev:TriplesMap_5f3bbc92-5ab6-4e80-b45f-a5b792c4b7df a rr:TriplesMap .
 
-_:node1b3vt9n91x1 km-dev:hasTriplesMap km-dev:TriplesMap_19686a66-a84c-4ad4-a406-291e81d0f968 .
+_:node1b44hhgejx1 km-dev:hasTriplesMap km-dev:TriplesMap_5f3bbc92-5ab6-4e80-b45f-a5b792c4b7df .
 
-km-dev:TriplesMap_19686a66-a84c-4ad4-a406-291e81d0f968 km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:TriplesMap_5f3bbc92-5ab6-4e80-b45f-a5b792c4b7df km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x32 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
+_:node1b44hhgejx33 rr:tableName "AAC_AmonCarter_ArtistData.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasLogicalTable _:node1b3vt9n91x32 .
+_:node1b44hhgejx1 km-dev:hasLogicalTable _:node1b44hhgejx33 .
 
-km-dev:TriplesMap_19686a66-a84c-4ad4-a406-291e81d0f968 rr:logicalTable _:node1b3vt9n91x32 ;
-	rr:subjectMap _:node1b3vt9n91x33 .
+km-dev:TriplesMap_5f3bbc92-5ab6-4e80-b45f-a5b792c4b7df rr:logicalTable _:node1b44hhgejx33 ;
+	rr:subjectMap _:node1b44hhgejx34 .
 
-_:node1b3vt9n91x1 km-dev:hasSubjectMap _:node1b3vt9n91x33 .
+_:node1b44hhgejx1 km-dev:hasSubjectMap _:node1b44hhgejx34 .
 
-_:node1b3vt9n91x33 km-dev:isPartOfMapping _:node1b3vt9n91x1 ;
+_:node1b44hhgejx34 km-dev:isPartOfMapping _:node1b44hhgejx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E53_Place2" ;
 	rr:class crm:E53_Place ;
 	rr:template "{[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathplace\",\"deathplace_uri\"]}" .
 
-km-dev:PredicateObjectMap_39f29bb5-8dc8-48dc-940f-d289a48b0fb1 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_e3879d88-3be1-4bbe-8b5b-f7609fd3fbea rr:predicate rdfs:label .
 
-_:node1b3vt9n91x34 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathplace\",\"Values\"]" ;
+_:node1b44hhgejx35 rr:column "[\"table\",\"tuple\",\"table\",\"tuple\",\"Unfold: name\",\"biodeathplace\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasObjectMap _:node1b3vt9n91x34 .
+_:node1b44hhgejx1 km-dev:hasObjectMap _:node1b44hhgejx35 .
 
-km-dev:PredicateObjectMap_39f29bb5-8dc8-48dc-940f-d289a48b0fb1 rr:objectMap _:node1b3vt9n91x34 .
+km-dev:PredicateObjectMap_e3879d88-3be1-4bbe-8b5b-f7609fd3fbea rr:objectMap _:node1b44hhgejx35 .
 
-km-dev:TriplesMap_19686a66-a84c-4ad4-a406-291e81d0f968 rr:predicateObjectMap km-dev:PredicateObjectMap_39f29bb5-8dc8-48dc-940f-d289a48b0fb1 .
+km-dev:TriplesMap_5f3bbc92-5ab6-4e80-b45f-a5b792c4b7df rr:predicateObjectMap km-dev:PredicateObjectMap_e3879d88-3be1-4bbe-8b5b-f7609fd3fbea .
 
-km-dev:PredicateObjectMap_39f29bb5-8dc8-48dc-940f-d289a48b0fb1 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1b3vt9n91x1 .
+km-dev:PredicateObjectMap_e3879d88-3be1-4bbe-8b5b-f7609fd3fbea a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1b44hhgejx1 .
 
-_:node1b3vt9n91x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_39f29bb5-8dc8-48dc-940f-d289a48b0fb1 .
+_:node1b44hhgejx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e3879d88-3be1-4bbe-8b5b-f7609fd3fbea .
