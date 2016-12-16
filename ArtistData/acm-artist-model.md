@@ -13,6 +13,16 @@ Literal Type: `xsd:string`
 <br/>Language: ``
 <br/>isUri: `false`
 
+#### Literal Node: `http://vocab.getty.edu/aat/300404670`
+Literal Type: ``
+<br/>Language: ``
+<br/>isUri: `true`
+
+#### Literal Node: `http://vocab.getty.edu/aat/300379842`
+Literal Type: ``
+<br/>Language: ``
+<br/>isUri: `true`
+
 
 ## PyTransforms
 #### _artist_name_uri_
@@ -64,6 +74,12 @@ From column: _table / tuple / table / tuple / Unfold: name / Glue_2 / table_tupl
 return getValue("table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri") + "/deathdate/"+ getValue("table_tuple_table_tuple_Unfold: name_biodeathdate_Values")
 ```
 
+#### _name_duplicate_
+From column: _table / tuple / table / tuple / Unfold: name / namfullname / Values_
+``` python
+return getValue("Values")
+```
+
 
 ## Selections
 
@@ -86,6 +102,7 @@ return getValue("table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_u
 | _birthplace_uri_ | `uri` | `crm:E53_Place1`|
 | _deathdate_uri_ | `uri` | `crm:E52_Time-Span2`|
 | _deathplace_uri_ | `uri` | `crm:E53_Place2`|
+| _name_duplicate_ | `rdfs:label` | `crm:E39_Actor1`|
 | _nationality_uri_ | `uri` | `crm:E74_Group1`|
 | _row_uri_ | `uri` | `crm:E39_Actor1`|
 | _sex_uri_ | `uri` | `crm:E55_Type1`|
@@ -103,5 +120,5 @@ return getValue("table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_u
 | `crm:E63_Beginning_of_Existence1` | `crm:P7_took_place_at` | `crm:E53_Place1`|
 | `crm:E64_End_of_Existence1` | `crm:P4_has_time-span` | `crm:E52_Time-Span2`|
 | `crm:E64_End_of_Existence1` | `crm:P7_took_place_at` | `crm:E53_Place2`|
-| `crm:E74_Group1` | `crm:P2_has_type` | `xsd:aat:300379842`|
-| `crm:E82_Actor_Appellation1` | `crm:P2_has_type` | `xsd:aat:300404670`|
+| `crm:E74_Group1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300379842`|
+| `crm:E82_Actor_Appellation1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404670`|
