@@ -58,6 +58,30 @@ From column: _table / tuple / Unfold: name / titmaintitle / Values_
 return UM.uri_from_fields("thesauri/title/",getValue("Values"))
 ```
 
+#### _material_uri_
+From column: _table / tuple / Glue_1 / Glue_1 / table_tuple_Glue_1_table_tuple_table_tuple_atom / row_uri_
+``` python
+return getValue("row_uri")+"/materials"
+```
+
+#### _physical_thing_uri_
+From column: _table / tuple / Glue_1 / Glue_1 / table_tuple_Glue_1_table_tuple_table_tuple_atom / material_uri_
+``` python
+return getValue("row_uri")+"/physical_thing"
+```
+
+#### _production_uri_
+From column: _table / tuple / Glue_1 / Glue_1 / table_tuple_Glue_1_table_tuple_table_tuple_atom / physical_thing_uri_
+``` python
+return getValue("row_uri")+"/production_uri"
+```
+
+#### _title_uri_main_
+From column: _table / tuple / Glue_1 / Glue_1 / table_tuple_Glue_1_table_tuple_table_tuple_atom / production_uri_
+``` python
+return getValue("row_uri")+"/title"
+```
+
 
 ## Selections
 #### _DEFAULT_TEST_
@@ -81,7 +105,9 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 | _accession_duplicate_ | `rdf:value` | `crm:E35_Title1`|
 | _accession_uri_ | `uri` | `crm:E42_Identifier1`|
 | _dimension_uri_ | `uri` | `crm:E54_Dimension1`|
-| _materials_uri_ | `uri` | `crm:E57_Material1`|
+| _material_uri_ | `uri` | `crm:E57_Material1`|
+| _physical_thing_uri_ | `uri` | `crm:E18_Physical_Thing1`|
+| _production_uri_ | `uri` | `crm:E12_Production2`|
 | _row_uri_ | `uri` | `crm:E22_Man-Made_Object1`|
 | _time_uri_ | `uri` | `crm:E52_Time-Span1`|
 | _title_uri_ | `uri` | `crm:E35_Title1`|
