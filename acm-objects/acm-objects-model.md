@@ -135,6 +135,18 @@ From column: _table / tuple / Unfold: name / titmaintitle / time_span_uri_
 return UM.uri_from_fields("material/",getValue("Values"))
 ```
 
+#### _url_uri+123_
+From column: _table / tuple / Glue_1 / Glue_1 / table_tuple_Glue_1_table_tuple_table_tuple_atom / row_uri_
+``` python
+return "object/"+getValue("content")+"/url/"
+```
+
+#### _url_uri_1234_
+From column: _table / tuple / Glue_1 / Glue_1 / table_tuple_Glue_1_table_tuple_table_tuple_atom / row_uri_
+``` python
+return "object/"+getValue("content")+"/url"
+```
+
 
 ## Selections
 #### _DEFAULT_TEST_
@@ -165,7 +177,7 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 | _time_span_uri_ | `uri` | `crm:E52_Time-Span1`|
 | _title_duplicate_ | `rdfs:label` | `crm:E22_Man-Made_Object1`|
 | _title_uri_ | `uri` | `crm:E35_Title1`|
-| _url_uri_ | `uri` | `foaf:Document1`|
+| _url_uri_1234_ | `uri` | `foaf:Document1`|
 
 
 ## Links
