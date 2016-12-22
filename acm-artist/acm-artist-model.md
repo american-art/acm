@@ -40,13 +40,13 @@ return UM.uri_from_fields("thesauri/nationality/",getValue("Values"))
 #### _row_uri_
 From column: _table / tuple / table / tuple / Unfold: name / internalrecordnumber / Values_
 ``` python
-return "object/"+getValue("Values")
+return "artistobject/"+getValue("Values")
 ```
 
 #### _birthdate_uri_
 From column: _table / tuple / table / tuple / Unfold: name / Glue_1 / table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values_
 ``` python
-return  getValue("table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri") +"/birthdate/" + getValue("table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values")
+return  "artist"+getValue("table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri") +"/birthdate/" + getValue("table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values")
 ```
 
 #### _birthplace_uri_
@@ -71,19 +71,19 @@ return UM.uri_from_fields("thesauri/sex/",getValue("Values"))
 #### _deathdate_uri_
 From column: _table / tuple / table / tuple / Unfold: name / Glue_2 / table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri_
 ``` python
-return getValue("table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri") + "/deathdate/"+ getValue("table_tuple_table_tuple_Unfold: name_biodeathdate_Values")
+return "artist"+getValue("table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri") + "/deathdate/"+ getValue("table_tuple_table_tuple_Unfold: name_biodeathdate_Values")
 ```
 
 #### _End_Existence1_uri_
 From column: _table / tuple / table / tuple / Unfold: name / Glue_2 / deathdate_uri_
 ``` python
-return getValue("table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri") + "/deathdate/"+ getValue("table_tuple_table_tuple_Unfold: name_biodeathdate_Values")
+return "artist"+getValue("table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri") + "/deathdate/"+ getValue("table_tuple_table_tuple_Unfold: name_biodeathdate_Values")
 ```
 
 #### _begin_existence1_uri_
 From column: _table / tuple / table / tuple / Unfold: name / Glue_1 / birthdate_uri_
 ``` python
-return  getValue("table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri") +"/birthdate/" + getValue("table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values")
+return  "artist"+getValue("table_tuple_table_tuple_Unfold: name_internalrecordnumber_row_uri") +"/birthdate/" + getValue("table_tuple_table_tuple_Unfold: name_biobirthearliestdate_Values")
 ```
 
 #### _name_duplicate_
