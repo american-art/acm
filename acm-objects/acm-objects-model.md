@@ -183,7 +183,6 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 | _dimension_uri1_ | `uri` | `crm:E54_Dimension1`|
 | _duplicate_title_uri_ | `uri` | `crm:E42_Identifier1`|
 | _material_uri1_ | `uri` | `crm:E57_Material1`|
-| _physical_thing_ | `uri` | `crm:E18_Physical_Thing1`|
 | _production_uri1_ | `uri` | `crm:E12_Production2`|
 | _row_uri_new_ | `uri` | `crm:E22_Man-Made_Object1`|
 | _time_span_uri_ | `uri` | `crm:E52_Time-Span1`|
@@ -196,11 +195,10 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 | From | Property | To |
 |  --- | -------- | ---|
 | `crm:E12_Production2` | `crm:P4_has_time-span` | `crm:E52_Time-Span1`|
-| `crm:E18_Physical_Thing1` | `crm:P43_has_dimension` | `crm:E54_Dimension1`|
 | `crm:E22_Man-Made_Object1` | `crm:P108i_was_produced_by` | `crm:E12_Production2`|
-| `crm:E22_Man-Made_Object1` | `crm:P46_is_composed_of` | `crm:E18_Physical_Thing1`|
 | `crm:E22_Man-Made_Object1` | `crm:P102_has_title` | `crm:E35_Title1`|
 | `crm:E22_Man-Made_Object1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
+| `crm:E22_Man-Made_Object1` | `crm:P43_has_dimension` | `crm:E54_Dimension1`|
 | `crm:E22_Man-Made_Object1` | `crm:P45_consists_of` | `crm:E57_Material1`|
 | `crm:E22_Man-Made_Object1` | `foaf:homepage` | `foaf:Document1`|
 | `crm:E35_Title1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404670`|
