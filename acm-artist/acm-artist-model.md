@@ -1,18 +1,8 @@
-# acm-artist7.xml
+# acm-artist.xml
 
 ## Add Column
 
 ## Add Node/Literal
-#### Literal Node: `aat:300404670`
-Literal Type: `xsd:string`
-<br/>Language: ``
-<br/>isUri: `false`
-
-#### Literal Node: `aat:300379842`
-Literal Type: `xsd:string`
-<br/>Language: ``
-<br/>isUri: `false`
-
 #### Literal Node: `http://vocab.getty.edu/aat/300404670`
 Literal Type: ``
 <br/>Language: ``
@@ -123,6 +113,16 @@ else:
 
 ```
 
+#### _GenderURI_in_use_
+From column: _table / tuple / table / tuple / Unfold: name / internalrecordnumber / row_uri_
+``` python
+if getValue("Values"):
+    return getValue("row_uri")+"/gender"
+else:
+    return ""
+
+```
+
 
 ## Selections
 
@@ -130,8 +130,8 @@ else:
 | Column | Property | Class |
 |  ----- | -------- | ----- |
 | _End_Existence1_uri_ | `uri` | `crm:E64_End_of_Existence1`|
-| _GenderTypeURI_ | `uri` | `crm:E55_Type1`|
-| _GenderURI_ | `uri` | `crm:E55_Type2`|
+| _GenderTypeURI_ | `uri` | `crm:E55_Type2`|
+| _GenderURI_in_use_ | `uri` | `crm:E55_Type1`|
 | _Values_ | `rdfs:label` | `crm:E74_Group1`|
 | _Values_ | `rdfs:label` | `crm:E53_Place1`|
 | _Values_ | `crm:P82a_begin_of_the_begin` | `crm:E52_Time-Span2`|
@@ -167,5 +167,3 @@ else:
 | `crm:E63_Beginning_of_Existence1` | `crm:P7_took_place_at` | `crm:E53_Place1`|
 | `crm:E64_End_of_Existence1` | `crm:P4_has_time-span` | `crm:E52_Time-Span2`|
 | `crm:E64_End_of_Existence1` | `crm:P7_took_place_at` | `crm:E53_Place2`|
-| `crm:E74_Group1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300379842`|
-| `crm:E82_Actor_Appellation1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404670`|
