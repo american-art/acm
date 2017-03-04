@@ -40,6 +40,7 @@ n34[shape="plaintext",style="filled",fillcolor="gold",label="Values"];
 n35[shape="plaintext",style="filled",fillcolor="gold",label="Values"];
 n36[shape="plaintext",style="filled",fillcolor="#CC7799",label="http://vocab.getty.edu/aat/300404670"];
 n37[shape="plaintext",style="filled",fillcolor="#CC7799",label="http://vocab.getty.edu/aat/300379842"];
+n38[shape="plaintext",style="filled",fillcolor="#CC7799",label="http://vocab.getty.edu/aat/300055147"];
 }
 n2 -> n3[color="brown",fontcolor="black",label="P2_has_type"]
 n2 -> n4[color="brown",fontcolor="black",label="P92i_was_brought_into_existence_by"]
@@ -76,4 +77,5 @@ n7 -> n34[color="brown",fontcolor="black",label="value"]
 n12 -> n35[color="brown",fontcolor="black",label="label"]
 n7 -> n36[color="brown",fontcolor="black",label="P2_has_type"]
 n6 -> n37[color="brown",fontcolor="black",label="P2_has_type"]
+n8 -> n38[color="brown",fontcolor="black",label="broadMatch"]
 }
