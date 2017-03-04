@@ -3,11 +3,6 @@
 ## Add Column
 
 ## Add Node/Literal
-#### Literal Node: `aat:300312355`
-Literal Type: `xsd:string`
-<br/>Language: ``
-<br/>isUri: `false`
-
 #### Literal Node: `http://vocab.getty.edu/aat/300404670`
 Literal Type: ``
 <br/>Language: ``
@@ -164,6 +159,30 @@ From column: _table / tuple / Glue_1 / Glue_1 / row_uri_new_
 return 'object/'+SM.fingerprint_string(getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Values"))+'/url/'
 ```
 
+#### _ProductionURI_
+From column: _table / tuple / Glue_1 / Glue_1 / row_uri_new_
+``` python
+return getValue("row_uri_new")+"/production"
+```
+
+#### _MediumURI_
+From column: _table / tuple / Glue_1 / Glue_1 / ProductionURI_
+``` python
+return getValue("row_uri_new")+"/medium"
+```
+
+#### _TimeSpanURI_
+From column: _table / tuple / Glue_1 / Glue_1 / ProductionURI_
+``` python
+return getValue("row_uri_new")+"/timespan"
+```
+
+#### _Dimension_
+From column: _table / tuple / Glue_1 / Glue_1 / MediumURI_
+``` python
+return getValue("row_uri_new")+"/dimension"
+```
+
 
 ## Selections
 #### _DEFAULT_TEST_
@@ -177,6 +196,10 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 ## Semantic Types
 | Column | Property | Class |
 |  ----- | -------- | ----- |
+| _Dimension_ | `uri` | `crm:E54_Dimension1`|
+| _MediumURI_ | `uri` | `crm:E33_Linguistic_Object1`|
+| _ProductionURI_ | `uri` | `crm:E12_Production2`|
+| _TimeSpanURI_ | `uri` | `crm:E52_Time-Span1`|
 | _Values_ | `rdf:value` | `crm:E33_Linguistic_Object1`|
 | _Values_ | `rdf:value` | `crm:E35_Title1`|
 | _Values_ | `crm:P91_has_unit` | `crm:E54_Dimension1`|
@@ -185,12 +208,9 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 | _Values_ | `rdfs:label` | `crm:E52_Time-Span1`|
 | _Values_ | `rdfs:label` | `crm:E42_Identifier1`|
 | _accession_duplicate_ | `rdf:value` | `crm:E42_Identifier1`|
-| _dimension_uri1_ | `uri` | `crm:E54_Dimension1`|
 | _duplicate_title_uri_ | `uri` | `crm:E42_Identifier1`|
 | _material_uri1_ | `uri` | `crm:E33_Linguistic_Object1`|
-| _production_uri1_ | `uri` | `crm:E12_Production2`|
 | _row_uri_new_ | `uri` | `crm:E22_Man-Made_Object1`|
-| _time_span_uri_ | `uri` | `crm:E52_Time-Span1`|
 | _title_duplicate_ | `rdfs:label` | `crm:E22_Man-Made_Object1`|
 | _title_uri_ | `uri` | `crm:E35_Title1`|
 | _url_uri_new_ | `uri` | `foaf:Document1`|
@@ -206,6 +226,6 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 | `crm:E22_Man-Made_Object1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
 | `crm:E22_Man-Made_Object1` | `crm:P43_has_dimension` | `crm:E54_Dimension1`|
 | `crm:E22_Man-Made_Object1` | `foaf:homepage` | `foaf:Document1`|
-| `crm:E33_Linguistic_Object1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300264237`|
-| `crm:E35_Title1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404670`|
-| `crm:E42_Identifier1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404670`|
+| `crm:E33_Linguistic_Object1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300264237`|
+| `crm:E35_Title1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300404670`|
+| `crm:E42_Identifier1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300404670`|
