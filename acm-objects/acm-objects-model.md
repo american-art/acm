@@ -13,6 +13,11 @@ Literal Type: ``
 <br/>Language: ``
 <br/>isUri: `true`
 
+#### Literal Node: `http://vocab.getty.edu/ulan/500305326`
+Literal Type: ``
+<br/>Language: ``
+<br/>isUri: `true`
+
 
 ## PyTransforms
 #### _accession_duplicate_
@@ -183,6 +188,18 @@ From column: _table / tuple / Glue_1 / Glue_1 / MediumURI_
 return getValue("row_uri_new")+"/dimension"
 ```
 
+#### _OwnerURI_
+From column: _table / tuple / Glue_1 / Glue_1 / row_uri_new_
+``` python
+return "www.cartermuseum.org"
+```
+
+#### _OwnerLabel_
+From column: _table / tuple / Glue_1 / Glue_1 / OwnerURI_
+``` python
+return "Amon Carter Museum of American Art"
+```
+
 
 ## Selections
 #### _DEFAULT_TEST_
@@ -197,6 +214,8 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 | Column | Property | Class |
 |  ----- | -------- | ----- |
 | _MediumURI_ | `uri` | `crm:E33_Linguistic_Object1`|
+| _OwnerLabel_ | `rdfs:label` | `crm:E40_Legal_Body1`|
+| _OwnerURI_ | `uri` | `crm:E40_Legal_Body1`|
 | _ProductionURI_ | `uri` | `crm:E12_Production2`|
 | _TimeSpanURI_ | `uri` | `crm:E52_Time-Span1`|
 | _Values_ | `rdf:value` | `crm:E33_Linguistic_Object1`|
@@ -218,8 +237,10 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 | `crm:E22_Man-Made_Object1` | `crm:P108i_was_produced_by` | `crm:E12_Production2`|
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object1`|
 | `crm:E22_Man-Made_Object1` | `crm:P102_has_title` | `crm:E35_Title1`|
+| `crm:E22_Man-Made_Object1` | `crm:P52_has_current_owner` | `crm:E40_Legal_Body1`|
 | `crm:E22_Man-Made_Object1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
 | `crm:E22_Man-Made_Object1` | `foaf:homepage` | `foaf:Document1`|
 | `crm:E33_Linguistic_Object1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300264237`|
 | `crm:E35_Title1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300404670`|
+| `crm:E40_Legal_Body1` | `skos:exactMatch` | `http://vocab.getty.edu/ulan/500305326`|
 | `crm:E42_Identifier1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300404670`|
