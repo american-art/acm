@@ -191,7 +191,7 @@ return getValue("row_uri_new")+"/dimension"
 #### _OwnerURI_
 From column: _table / tuple / Glue_1 / Glue_1 / row_uri_new_
 ``` python
-return "www.cartermuseum.org"
+return "http://data.americanartcollaborative.org/acm"
 ```
 
 #### _OwnerLabel_
