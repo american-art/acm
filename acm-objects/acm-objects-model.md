@@ -155,7 +155,10 @@ return "object/"+getValue("content")+"/url"
 #### _row_uri_new_
 From column: _table / tuple / Glue_1 / Glue_1 / table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Values_
 ``` python
-return 'object/'+SM.fingerprint_string(getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Values"))
+if getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Values"):
+    return 'object/'+SM.fingerprint_string(getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Values"))
+else:
+    return ""
 ```
 
 #### _url_uri_new_
