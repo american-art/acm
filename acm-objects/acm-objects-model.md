@@ -203,6 +203,15 @@ From column: _table / tuple / Glue_1 / Glue_1 / OwnerURI_
 return "Amon Carter Museum of American Art"
 ```
 
+#### _PrefIdURI_
+From column: _table / tuple / Unfold: name / titaccessionno / accession_duplicate_
+``` python
+if getValue("Values"):
+    return "object/"+SM.fingerprint_string(getValue("Values"))+"/id"
+else:
+    return ""
+```
+
 
 ## Selections
 #### _DEFAULT_TEST_
@@ -230,7 +239,7 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 | _row_uri_new_ | `uri` | `crm:E22_Man-Made_Object1`|
 | _title_duplicate_ | `rdfs:label` | `crm:E22_Man-Made_Object1`|
 | _title_uri_ | `uri` | `crm:E35_Title1`|
-| _url_uri_new_ | `uri` | `foaf:Document1`|
+| _url_uri_ | `uri` | `foaf:Document1`|
 
 
 ## Links
