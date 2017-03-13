@@ -13,12 +13,12 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
+_:node1bb305bkfx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "acm-objects.xml" ;
-	km-dev:modelPublicationTime "1489377254513"^^xsd:long ;
+	km-dev:modelPublicationTime "1489380748944"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"atom\"},{\"columnName\":\"content\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"atom\"},{\"columnName\":\"name\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"refcopyright_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_cretype_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_crerole_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_crerole_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"woracmcollectionname\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"ediedition\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"ediedition\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"woracmcollectionname\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"time_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtechnique\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvaluemetric_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_credatecreated_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"},{\"columnName\":\"acession_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtechnique\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvaluemetric_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"woracmcollectionname\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_credatecreated_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"ediedition\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvalue_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"OwnerLabel\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"physical_thing_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_url\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtechnique\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"physical_thing\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"woracmcollectionname\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_url\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_woracmcollectionname\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_woracmcollectionname\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvalue_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titparenttitle\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titparenttitle\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"url\"},{\"columnName\":\"url_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunitmetric_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titparenttitle\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titparenttitle\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunitmetric_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvalue_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtechnique\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple\"},{\"columnName\":\"atom\"},{\"columnName\":\"name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"url\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvalue_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"url\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"title_uri_main\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunitmetric_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"url\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunitmetric_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"url\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"credatecreated_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"ProductionURI\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"refcopyright_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"credatecreated_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"cretype_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"accession_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"dimension_uri1\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple\"},{\"columnName\":\"atom\"},{\"columnName\":\"content\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple\"},{\"columnName\":\"atom\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"material_uri1\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_titparenttitle\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_titmaintitle\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"refcopyright_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_titparenttitle\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"url_uri_1234\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medmedium\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medmedium\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"cretype_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunit_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvaluemetric_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunit_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"row_uri_new\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"material_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvaluemetric_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"},{\"columnName\":\"accession_duplicate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"ediedition\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"crerole_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medformat\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medobjecttype\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_url_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medobjecttype\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medformat\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"crerole_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"content\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"duplicate_title_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"TimeSpanURI\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medvaluemetric_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtype_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_titmaintitle_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_refcopyright_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medtype_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtype_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medvaluemetric_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_refcopyright_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"title_duplicate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"dimension_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_crerole_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medobjecttype\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_titmaintitle\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medformat\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_titaccessionno\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_titparenttitle_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medobjecttype\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medunit_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_titaccessionno\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medvaluemetric_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtype_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"production_uri1\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtype_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"row_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"url_uri+123\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medunit_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medunit_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medunitmetric_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Dimension\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medvalue_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medunitmetric_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medvalue_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medvalue_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"credatecreated_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_credatecreated_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medtechnique_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medformat_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_cretype_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_ediedition_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medobjecttype_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medtype_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_woracmcollectionname_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medmedium\"},{\"columnName\":\"materials_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"MediumURI\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medmedium_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medmedium\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medtype_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunit_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"refcopyright_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medtechnique\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medmedium\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medtechnique\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medobjecttype\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"cretype_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"credatecreated_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medobjecttype\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"cretype_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medmedium\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunit_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medformat\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medmedium\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medunitmetric_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"time_span_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_refcopyright_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"title_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"url_uri_new\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"crerole_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_ediedition\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medformat\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medformat\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"OwnerURI\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"production_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"crerole_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_ediedition\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_cretype_tab\"},{\"columnName\":\"Values\"}]]" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"atom\"},{\"columnName\":\"name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"atom\"},{\"columnName\":\"content\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medobjecttype\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_cretype_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medmedium\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_woracmcollectionname_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medunitmetric_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"title_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_ediedition_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_refcopyright_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"url_uri_1234\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medobjecttype\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtype_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunitmetric_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"refcopyright_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunitmetric_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titparenttitle\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medobjecttype_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"time_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medformat\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"credatecreated_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"url\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"credatecreated_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medobjecttype\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"url\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"production_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"crerole_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medformat\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"crerole_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medtype_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"OwnerURI\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medtechnique\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medtype_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medtechnique\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medobjecttype\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medunit_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_titparenttitle_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medtype_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_titmaintitle_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"dimension_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medformat_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"refcopyright_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medtechnique_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medmedium_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"production_uri1\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"},{\"columnName\":\"accession_duplicate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"cretype_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medmedium\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"cretype_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"crerole_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunit_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunit_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"time_span_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunit_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medmedium\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medobjecttype\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medformat\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medmedium\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"url\"},{\"columnName\":\"url_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medmedium\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"cretype_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunit_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medformat\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"accession_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtype_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medobjecttype\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medvalue_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_credatecreated_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"},{\"columnName\":\"PrefIdURI\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"title_duplicate\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtype_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"content\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvaluemetric_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"physical_thing\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"cretype_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"url_uri+123\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunitmetric_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titparenttitle\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medunitmetric_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"ediedition\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"url\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"},{\"columnName\":\"acession_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"credatecreated_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvaluemetric_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"url\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"credatecreated_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_url_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_medvaluemetric_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_Unfold: name_crerole_tab_Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"duplicate_title_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"title_uri_main\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"woracmcollectionname\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"ediedition\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"woracmcollectionname\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtechnique\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtechnique\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"woracmcollectionname\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtechnique\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvalue_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvalue_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvalue_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtechnique\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titparenttitle\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titparenttitle\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvalue_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"dimension_uri1\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_woracmcollectionname\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_url\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple\"},{\"columnName\":\"atom\"},{\"columnName\":\"name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_url\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_credatecreated_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_credatecreated_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_crerole_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"ediedition\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_crerole_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"ediedition\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_cretype_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"woracmcollectionname\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_woracmcollectionname\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvaluemetric_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medvaluemetric_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"ProductionURI\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titaccessionno\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"row_uri_new\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Dimension\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_titmaintitle\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_titparenttitle\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_titparenttitle\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medmedium\"},{\"columnName\":\"materials_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple\"},{\"columnName\":\"atom\"},{\"columnName\":\"content\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"url_uri_new\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"row_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_tuple\"},{\"columnName\":\"atom\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"OwnerLabel\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"material_uri1\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_table_name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_refcopyright_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medvaluemetric_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"MediumURI\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_titaccessionno\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_refcopyright_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_titmaintitle\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_titaccessionno\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"TimeSpanURI\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"physical_thing_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"medtype_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Glue_1_table_tuple_table_tuple_atom\"},{\"columnName\":\"material_uri\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"refcopyright_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medunit_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medunit_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medunitmetric_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medvalue_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medmedium\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medunitmetric_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"titmaintitle\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medvalue_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"crerole_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medformat\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_ediedition\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medformat\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_medvaluemetric_tab\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_ediedition\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Glue_1\"},{\"columnName\":\"table_tuple_Unfold: name_cretype_tab\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"table\"},{\"columnName\":\"tuple\"},{\"columnName\":\"Unfold: name\"},{\"columnName\":\"refcopyright_tab\"},{\"columnName\":\"Values\"}]]" ;
 	km-dev:hasModelLabel "acm-objects" ;
 	km-dev:hasWorksheetHistory """[
     {
@@ -62,12 +62,12 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"inputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"content\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"name\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             },
             {
                 \"name\": \"outputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"crerole_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"refcopyright_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medformat\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titmaintitle\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"crerole_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titaccessionno\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunitmetric_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"url\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunitmetric_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"ediedition\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"url\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"woracmcollectionname\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"credatecreated_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvaluemetric_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"credatecreated_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"cretype_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvaluemetric_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"ediedition\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"refcopyright_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medobjecttype\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medformat\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medobjecttype\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titaccessionno\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtype_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtype_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtechnique\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"woracmcollectionname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medmedium\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medmedium\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"cretype_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunit_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titparenttitle\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titmaintitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunit_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titparenttitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvalue_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtechnique\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvalue_tab\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medobjecttype\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtype_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"cretype_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medformat\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunitmetric_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titparenttitle\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunitmetric_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medobjecttype\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"ediedition\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"crerole_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"url\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medformat\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"ediedition\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"credatecreated_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"crerole_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"woracmcollectionname\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"url\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titaccessionno\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"credatecreated_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvaluemetric_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvaluemetric_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titaccessionno\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"refcopyright_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtype_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titmaintitle\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"refcopyright_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunit_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtechnique\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"woracmcollectionname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunit_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medmedium\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvalue_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medmedium\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtechnique\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"cretype_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titparenttitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvalue_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titmaintitle\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             }
         ],
@@ -132,7 +132,7 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"outputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medtype_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_cretype_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_crerole_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_crerole_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medvaluemetric_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_credatecreated_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_credatecreated_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medtype_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_refcopyright_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medtechnique\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_refcopyright_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medtechnique\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_titmaintitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medobjecttype\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_titaccessionno\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medobjecttype\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medmedium\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_titaccessionno\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"content\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medvaluemetric_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medformat\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medmedium\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_titparenttitle\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_url\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_titmaintitle\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_titparenttitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_url\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_woracmcollectionname\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_woracmcollectionname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medunit_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medunit_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_ediedition\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medunitmetric_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medformat\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medvalue_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medunitmetric_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medvalue_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_ediedition\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_cretype_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medobjecttype\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medmedium\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_woracmcollectionname\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_url\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_refcopyright_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_url\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medvaluemetric_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_credatecreated_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_titaccessionno\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_refcopyright_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_credatecreated_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_crerole_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_crerole_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_titmaintitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_cretype_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_woracmcollectionname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_titaccessionno\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medtype_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medtechnique\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medtype_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medtechnique\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medobjecttype\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_titmaintitle\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_titparenttitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_titparenttitle\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medunit_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medunit_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"content\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medunitmetric_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medvalue_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medmedium\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medunitmetric_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medvalue_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medformat\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_ediedition\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_table_tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medformat\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_medvaluemetric_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_ediedition\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Unfold: name_cretype_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             }
         ],
@@ -380,7 +380,7 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"outputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medvalue_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_credatecreated_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medtechnique_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medformat_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_cretype_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_url_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_ediedition_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_table_tuple_atom\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medobjecttype_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_table_tuple_atom\\\"},{\\\"columnName\\\":\\\"content\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_woracmcollectionname_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medmedium_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medunitmetric_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_refcopyright_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_titmaintitle_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medtype_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medvaluemetric_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_crerole_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_table_tuple_atom\\\"},{\\\"columnName\\\":\\\"name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_titparenttitle_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medunit_tab_Values\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_cretype_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medunit_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_table_tuple_atom\\\"},{\\\"columnName\\\":\\\"content\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_woracmcollectionname_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_titparenttitle_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_table_tuple_atom\\\"},{\\\"columnName\\\":\\\"name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medtype_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_table_tuple_atom\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medunitmetric_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_ediedition_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_titmaintitle_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medformat_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medtechnique_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_refcopyright_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medmedium_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medobjecttype_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medvalue_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_credatecreated_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_url_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_medvaluemetric_tab_Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"table_tuple_Glue_1_table_tuple_Unfold: name_crerole_tab_Values\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             }
         ],
@@ -427,12 +427,12 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"inputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"content\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"name\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"atom\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             },
             {
                 \"name\": \"outputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"credatecreated_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medobjecttype\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medobjecttype\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medformat\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"woracmcollectionname\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"ediedition\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"refcopyright_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtechnique\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtechnique\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"woracmcollectionname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtype_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medmedium\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunit_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtype_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medmedium\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvalue_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"cretype_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"credatecreated_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"cretype_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titmaintitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunit_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"refcopyright_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvalue_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titaccessionno\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titparenttitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvaluemetric_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunitmetric_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titaccessionno\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titparenttitle\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunitmetric_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"url\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"crerole_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medformat\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"url\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvaluemetric_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titmaintitle\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"crerole_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"ediedition\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titaccessionno\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunitmetric_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"refcopyright_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvaluemetric_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunitmetric_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titaccessionno\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titparenttitle\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"credatecreated_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"url\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"credatecreated_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"ediedition\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"url\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvaluemetric_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"woracmcollectionname\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"ediedition\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"woracmcollectionname\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtechnique\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"cretype_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medmedium\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"cretype_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"crerole_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunit_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titmaintitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtechnique\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medobjecttype\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titmaintitle\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvalue_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medformat\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"crerole_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medmedium\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medvalue_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medformat\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medunit_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titparenttitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtype_tab\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medobjecttype\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"refcopyright_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"medtype_tab\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             }
         ],
@@ -963,8 +963,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                     \"hasServiceProperties\": false,
                     \"hasPrefix\": false,
                     \"graphLabel\": \"\",
-                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/ObjectData\",
                     \"hasGithubURL\": true,
+                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/ObjectData\",
                     \"hasBaseURI\": false,
                     \"baseURI\": \"\"
                 },
@@ -1239,8 +1239,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                     \"hasServiceProperties\": false,
                     \"hasPrefix\": false,
                     \"graphLabel\": \"\",
-                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/ObjectData\",
                     \"hasGithubURL\": true,
+                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/ObjectData\",
                     \"hasBaseURI\": false,
                     \"baseURI\": \"\"
                 },
@@ -1279,8 +1279,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                     \"hasServiceProperties\": false,
                     \"hasPrefix\": false,
                     \"graphLabel\": \"\",
-                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/ObjectData\",
                     \"hasGithubURL\": true,
+                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/ObjectData\",
                     \"hasBaseURI\": false,
                     \"baseURI\": \"\"
                 },
@@ -1319,8 +1319,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                     \"hasServiceProperties\": false,
                     \"hasPrefix\": false,
                     \"graphLabel\": \"\",
-                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/ObjectData\",
                     \"hasGithubURL\": true,
+                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/ObjectData\",
                     \"hasBaseURI\": false,
                     \"baseURI\": \"\"
                 },
@@ -1823,8 +1823,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                     \"hasServiceProperties\": false,
                     \"hasPrefix\": false,
                     \"graphLabel\": \"\",
-                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/acm-objects\",
                     \"hasGithubURL\": true,
+                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/acm-objects\",
                     \"hasBaseURI\": false,
                     \"baseURI\": \"\"
                 },
@@ -1981,8 +1981,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                     \"hasServiceProperties\": false,
                     \"hasPrefix\": false,
                     \"graphLabel\": \"\",
-                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/acm-objects\",
                     \"hasGithubURL\": true,
+                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/acm-objects\",
                     \"hasBaseURI\": false,
                     \"baseURI\": \"\"
                 },
@@ -2137,8 +2137,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                     \"hasServiceProperties\": false,
                     \"hasPrefix\": false,
                     \"graphLabel\": \"\",
-                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/acm-objects\",
                     \"hasGithubURL\": true,
+                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/acm-objects\",
                     \"hasBaseURI\": false,
                     \"baseURI\": \"\"
                 },
@@ -2177,8 +2177,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                     \"hasServiceProperties\": false,
                     \"hasPrefix\": false,
                     \"graphLabel\": \"\",
-                    \"hasGithubURL\": true,
                     \"GithubURL\": \"https://github.com/american-art/acm/tree/master/acm-objects\",
+                    \"hasGithubURL\": true,
                     \"hasBaseURI\": false,
                     \"baseURI\": \"\"
                 },
@@ -2449,8 +2449,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                     \"hasServiceProperties\": false,
                     \"hasPrefix\": false,
                     \"graphLabel\": \"\",
-                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/acm-objects\",
                     \"hasGithubURL\": true,
+                    \"GithubURL\": \"https://github.com/american-art/acm/tree/master/acm-objects\",
                     \"hasBaseURI\": false,
                     \"baseURI\": \"\"
                 },
@@ -2626,6 +2626,64 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
         \"commandName\": \"OrganizeColumnsCommand\"
     },
     {
+        \"tags\": [\"Transformation\"],
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"titaccessionno\"},
+                    {\"columnName\": \"accession_duplicate\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"PrefIdURI\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"if getValue(\\\"Values\\\"):\\n    return \\\"object/\\\"+SM.fingerprint_string(getValue(\\\"Values\\\"))+\\\"/id\\\"\\nelse:\\n    return \\\"\\\"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titaccessionno\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"titaccessionno\\\"},{\\\"columnName\\\":\\\"PrefIdURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
         \"tags\": [\"Selection\"],
         \"model\": \"new\",
         \"inputParameters\": [
@@ -2706,8 +2764,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#value\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"E33_Linguistic_Object1\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object\"
@@ -2770,8 +2828,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#value\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E35_Title1 (add)\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E35_Title\"
@@ -2834,8 +2892,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"foaf:Document1 (add)\",
                     \"DomainId\": \"http://xmlns.com/foaf/0.1/Document1\",
                     \"DomainUri\": \"http://xmlns.com/foaf/0.1/Document\"
@@ -2898,8 +2956,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E42_Identifier1 (add)\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier\"
@@ -2962,8 +3020,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E52_Time-Span1 (add)\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\"
@@ -3041,8 +3099,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"DomainLabel\": \"crm:E35_Title1\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E35_Title\"
@@ -3105,8 +3163,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#value\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E42_Identifier1\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier\"
@@ -3169,8 +3227,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E22_Man-Made_Object1\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object\"
@@ -3248,8 +3306,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"DomainLabel\": \"crm:E22_Man-Made_Object1\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object\"
@@ -3279,85 +3337,6 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"outputColumns\",
                 \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"row_uri_new\\\"}]}]\",
-                \"type\": \"hNodeIdList\"
-            }
-        ],
-        \"commandName\": \"SetMetaPropertyCommand\"
-    },
-    {
-        \"tags\": [\"SemanticType\"],
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"value\": [
-                    {\"columnName\": \"table\"},
-                    {\"columnName\": \"tuple\"},
-                    {\"columnName\": \"Glue_1\"},
-                    {\"columnName\": \"Glue_1\"},
-                    {\"columnName\": \"url_uri_new\"}
-                ],
-                \"type\": \"hNodeId\"
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"value\": \"W\",
-                \"type\": \"worksheetId\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"value\": \"DEFAULT_TEST\",
-                \"type\": \"other\"
-            },
-            {
-                \"name\": \"metaPropertyName\",
-                \"value\": \"isUriOfClass\",
-                \"type\": \"other\"
-            },
-            {
-                \"name\": \"metaPropertyUri\",
-                \"value\": \"http://xmlns.com/foaf/0.1/Document\",
-                \"type\": \"other\"
-            },
-            {
-                \"name\": \"metaPropertyId\",
-                \"value\": \"http://xmlns.com/foaf/0.1/Document1\",
-                \"type\": \"other\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"value\": [{
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
-                    \"isPrimary\": true,
-                    \"DomainLabel\": \"foaf:Document1\",
-                    \"DomainId\": \"http://xmlns.com/foaf/0.1/Document1\",
-                    \"DomainUri\": \"http://xmlns.com/foaf/0.1/Document\"
-                }],
-                \"type\": \"other\"
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"value\": true,
-                \"type\": \"other\"
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"value\": \"\",
-                \"type\": \"other\"
-            },
-            {
-                \"name\": \"language\",
-                \"value\": \"\",
-                \"type\": \"other\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"url_uri_new\\\"}]}]\",
-                \"type\": \"hNodeIdList\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"Glue_1\\\"},{\\\"columnName\\\":\\\"url_uri_new\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             }
         ],
@@ -3406,9 +3385,9 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isProvenance\": false,
-                    \"isPrimary\": true,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
                     \"DomainLabel\": \"crm:E12_Production2\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E12_Production2\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E12_Production\"
@@ -3486,9 +3465,9 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isProvenance\": false,
-                    \"isPrimary\": true,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
                     \"DomainLabel\": \"crm:E33_Linguistic_Object1\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object\"
@@ -3566,9 +3545,9 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isProvenance\": false,
-                    \"isPrimary\": true,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
                     \"DomainLabel\": \"crm:E52_Time-Span1\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span\"
@@ -3646,9 +3625,9 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isProvenance\": false,
-                    \"isPrimary\": true,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
                     \"DomainLabel\": \"crm:E40_Legal_Body1\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body\"
@@ -3711,9 +3690,9 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
-                    \"isPrimary\": true,
                     \"isProvenance\": false,
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
                     \"DomainLabel\": \"crm:E40_Legal_Body1\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body\"
@@ -3747,6 +3726,86 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
             }
         ],
         \"commandName\": \"SetSemanticTypeCommand\"
+    },
+    {
+        \"tags\": [\"SemanticType\"],
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"table\"},
+                    {\"columnName\": \"tuple\"},
+                    {\"columnName\": \"Unfold: name\"},
+                    {\"columnName\": \"url\"},
+                    {\"columnName\": \"url_uri\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"value\": \"isUriOfClass\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"value\": \"http://xmlns.com/foaf/0.1/Document\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"value\": \"http://xmlns.com/foaf/0.1/Document1\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"DomainLabel\": \"foaf:Document1\",
+                    \"DomainId\": \"http://xmlns.com/foaf/0.1/Document1\",
+                    \"DomainUri\": \"http://xmlns.com/foaf/0.1/Document\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": true,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"language\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"url\\\"},{\\\"columnName\\\":\\\"url_uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"table\\\"},{\\\"columnName\\\":\\\"tuple\\\"},{\\\"columnName\\\":\\\"Unfold: name\\\"},{\\\"columnName\\\":\\\"url\\\"},{\\\"columnName\\\":\\\"url_uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetMetaPropertyCommand\"
     },
     {
         \"tags\": [\"Modeling\"],
@@ -3892,8 +3951,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"value\": {
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
-                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\"
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
                 },
                 \"type\": \"other\"
             },
@@ -3924,8 +3983,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"aat:300312355\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",
                     \"edgeTargetId\": \"aat:3003123551\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier\"
                 },
                 \"type\": \"other\"
@@ -3956,8 +4015,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"value\": {
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P45_consists_of\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
-                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E57_Material1\"
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E57_Material1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
                 },
                 \"type\": \"other\"
             },
@@ -3987,8 +4046,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"value\": {
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
-                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\"
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
                 },
                 \"type\": \"other\"
             },
@@ -4018,8 +4077,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"value\": {
                     \"edgeId\": \"http://xmlns.com/foaf/0.1/homepage\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
-                    \"edgeTargetId\": \"http://xmlns.com/foaf/0.1/Document1\"
+                    \"edgeTargetId\": \"http://xmlns.com/foaf/0.1/Document1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
                 },
                 \"type\": \"other\"
             },
@@ -4049,8 +4108,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"value\": {
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
-                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\"
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
                 },
                 \"type\": \"other\"
             },
@@ -4080,8 +4139,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"value\": {
                     \"edgeId\": \"http://xmlns.com/foaf/0.1/homepage\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
-                    \"edgeTargetId\": \"http://xmlns.com/foaf/0.1/Document1\"
+                    \"edgeTargetId\": \"http://xmlns.com/foaf/0.1/Document1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
                 },
                 \"type\": \"other\"
             },
@@ -4111,8 +4170,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"value\": {
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
-                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E12_Production2\"
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E12_Production2\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
                 },
                 \"type\": \"other\"
             },
@@ -4142,8 +4201,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"value\": {
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing1\",
-                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension1\"
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing1\"
                 },
                 \"type\": \"other\"
             },
@@ -4173,8 +4232,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"value\": {
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
-                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing1\"
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
                 },
                 \"type\": \"other\"
             },
@@ -4204,8 +4263,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"value\": {
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E12_Production2\",
-                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1\"
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E12_Production2\"
                 },
                 \"type\": \"other\"
             },
@@ -4235,8 +4294,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"value\": {
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
-                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E12_Production2\"
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E12_Production2\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
                 },
                 \"type\": \"other\"
             },
@@ -4266,8 +4325,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"value\": {
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E12_Production2\",
-                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1\"
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E12_Production2\"
                 },
                 \"type\": \"other\"
             },
@@ -4298,8 +4357,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
                     \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object\"
                 },
                 \"type\": \"other\"
@@ -4331,8 +4390,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://vocab.getty.edu/aat/300404670\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\",
                     \"edgeTargetId\": \"http://vocab.getty.edu/aat/3004046701\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E35_Title\"
                 },
                 \"type\": \"other\"
@@ -4364,8 +4423,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
                     \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object\"
                 },
                 \"type\": \"other\"
@@ -4397,8 +4456,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://vocab.getty.edu/aat/300264237\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object1\",
                     \"edgeTargetId\": \"http://vocab.getty.edu/aat/3002642371\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object1\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object\"
                 },
                 \"type\": \"other\"
@@ -4430,8 +4489,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",
                     \"edgeTargetId\": \"http://vocab.getty.edu/aat/3004046702\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier\"
                 },
                 \"type\": \"other\"
@@ -4463,8 +4522,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner\",
-                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\",
                     \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+                    \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object\"
                 },
                 \"type\": \"other\"
@@ -4539,8 +4598,8 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
                     \"edgeTargetUri\": \"http://vocab.getty.edu/ulan/500305326\",
                     \"isProvenance\": false,
                     \"edgeId\": \"http://www.w3.org/2004/02/skos/core#exactMatch\",
-                    \"edgeTargetId\": \"http://vocab.getty.edu/ulan/5003053261\",
                     \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\",
+                    \"edgeTargetId\": \"http://vocab.getty.edu/ulan/5003053261\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body\"
                 },
                 \"type\": \"other\"
@@ -4560,511 +4619,511 @@ _:node1bb2sqn3hx1 a km-dev:R2RMLMapping ;
     }
 ]""" .
 
-km-dev:TriplesMap_b14ff2b7-e9be-43be-846c-2a79aaa0fe07 a rr:TriplesMap .
+km-dev:TriplesMap_849312a2-f845-47be-8ea2-44a55fecc59b a rr:TriplesMap .
 
-_:node1bb2sqn3hx1 km-dev:hasTriplesMap km-dev:TriplesMap_b14ff2b7-e9be-43be-846c-2a79aaa0fe07 .
+_:node1bb305bkfx1 km-dev:hasTriplesMap km-dev:TriplesMap_849312a2-f845-47be-8ea2-44a55fecc59b .
 
-km-dev:TriplesMap_b14ff2b7-e9be-43be-846c-2a79aaa0fe07 km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:TriplesMap_849312a2-f845-47be-8ea2-44a55fecc59b km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx2 rr:tableName "acm-objects.xml" ;
+_:node1bb305bkfx2 rr:tableName "acm-objects.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasLogicalTable _:node1bb2sqn3hx2 .
+_:node1bb305bkfx1 km-dev:hasLogicalTable _:node1bb305bkfx2 .
 
-km-dev:TriplesMap_b14ff2b7-e9be-43be-846c-2a79aaa0fe07 rr:logicalTable _:node1bb2sqn3hx2 ;
-	rr:subjectMap _:node1bb2sqn3hx3 .
+km-dev:TriplesMap_849312a2-f845-47be-8ea2-44a55fecc59b rr:logicalTable _:node1bb305bkfx2 ;
+	rr:subjectMap _:node1bb305bkfx3 .
 
-_:node1bb2sqn3hx1 km-dev:hasSubjectMap _:node1bb2sqn3hx3 .
+_:node1bb305bkfx1 km-dev:hasSubjectMap _:node1bb305bkfx3 .
 
-_:node1bb2sqn3hx3 km-dev:isPartOfMapping _:node1bb2sqn3hx1 ;
+_:node1bb305bkfx3 km-dev:isPartOfMapping _:node1bb305bkfx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E12_Production2" ;
 	rr:class crm:E12_Production ;
 	rr:template "{[\"table\",\"tuple\",\"Glue_1\",\"Glue_1\",\"row_uri_new\"]}/production" .
 
-km-dev:PredicateObjectMap_8d317b78-9462-4ea9-b315-b38cceb8165c rr:predicate crm:P4_has_time-span .
+km-dev:PredicateObjectMap_4a49d1da-cf36-40ff-a223-4d172b3aaee6 rr:predicate crm:P4_has_time-span .
 
-km-dev:RefObjectMap_17639287-0cab-46ce-afa2-bacd87e6fe4c a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_5bb83e37-ac50-4162-9022-79b83619d065 ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:RefObjectMap_2897d4ba-4830-48a6-9080-c69e546526e3 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_a87a84d3-e233-4b21-878c-d37f6ee996d0 ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap km-dev:RefObjectMap_17639287-0cab-46ce-afa2-bacd87e6fe4c .
+_:node1bb305bkfx1 km-dev:hasObjectMap km-dev:RefObjectMap_2897d4ba-4830-48a6-9080-c69e546526e3 .
 
-km-dev:PredicateObjectMap_8d317b78-9462-4ea9-b315-b38cceb8165c rr:objectMap km-dev:RefObjectMap_17639287-0cab-46ce-afa2-bacd87e6fe4c .
+km-dev:PredicateObjectMap_4a49d1da-cf36-40ff-a223-4d172b3aaee6 rr:objectMap km-dev:RefObjectMap_2897d4ba-4830-48a6-9080-c69e546526e3 .
 
-km-dev:TriplesMap_b14ff2b7-e9be-43be-846c-2a79aaa0fe07 rr:predicateObjectMap km-dev:PredicateObjectMap_8d317b78-9462-4ea9-b315-b38cceb8165c .
+km-dev:TriplesMap_849312a2-f845-47be-8ea2-44a55fecc59b rr:predicateObjectMap km-dev:PredicateObjectMap_4a49d1da-cf36-40ff-a223-4d172b3aaee6 .
 
-km-dev:PredicateObjectMap_8d317b78-9462-4ea9-b315-b38cceb8165c a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_4a49d1da-cf36-40ff-a223-4d172b3aaee6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8d317b78-9462-4ea9-b315-b38cceb8165c .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4a49d1da-cf36-40ff-a223-4d172b3aaee6 .
 
-km-dev:TriplesMap_5bb83e37-ac50-4162-9022-79b83619d065 a rr:TriplesMap .
+km-dev:TriplesMap_a87a84d3-e233-4b21-878c-d37f6ee996d0 a rr:TriplesMap .
 
-_:node1bb2sqn3hx1 km-dev:hasTriplesMap km-dev:TriplesMap_5bb83e37-ac50-4162-9022-79b83619d065 .
+_:node1bb305bkfx1 km-dev:hasTriplesMap km-dev:TriplesMap_a87a84d3-e233-4b21-878c-d37f6ee996d0 .
 
-km-dev:TriplesMap_5bb83e37-ac50-4162-9022-79b83619d065 km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:TriplesMap_a87a84d3-e233-4b21-878c-d37f6ee996d0 km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx4 rr:tableName "acm-objects.xml" ;
+_:node1bb305bkfx4 rr:tableName "acm-objects.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasLogicalTable _:node1bb2sqn3hx4 .
+_:node1bb305bkfx1 km-dev:hasLogicalTable _:node1bb305bkfx4 .
 
-km-dev:TriplesMap_5bb83e37-ac50-4162-9022-79b83619d065 rr:logicalTable _:node1bb2sqn3hx4 ;
-	rr:subjectMap _:node1bb2sqn3hx5 .
+km-dev:TriplesMap_a87a84d3-e233-4b21-878c-d37f6ee996d0 rr:logicalTable _:node1bb305bkfx4 ;
+	rr:subjectMap _:node1bb305bkfx5 .
 
-_:node1bb2sqn3hx1 km-dev:hasSubjectMap _:node1bb2sqn3hx5 .
+_:node1bb305bkfx1 km-dev:hasSubjectMap _:node1bb305bkfx5 .
 
-_:node1bb2sqn3hx5 km-dev:isPartOfMapping _:node1bb2sqn3hx1 ;
+_:node1bb305bkfx5 km-dev:isPartOfMapping _:node1bb305bkfx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span1" ;
 	rr:class crm:E52_Time-Span ;
 	rr:template "{[\"table\",\"tuple\",\"Glue_1\",\"Glue_1\",\"row_uri_new\"]}/timespan" .
 
-km-dev:PredicateObjectMap_27cc2747-9e6b-4bab-892d-4aa2f1434787 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_8e0a33a3-ab59-4f45-aed7-20a45009cf09 rr:predicate rdfs:label .
 
-_:node1bb2sqn3hx6 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"credatecreated_tab\",\"Values\"]" ;
+_:node1bb305bkfx6 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"credatecreated_tab\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap _:node1bb2sqn3hx6 .
+_:node1bb305bkfx1 km-dev:hasObjectMap _:node1bb305bkfx6 .
 
-km-dev:PredicateObjectMap_27cc2747-9e6b-4bab-892d-4aa2f1434787 rr:objectMap _:node1bb2sqn3hx6 .
+km-dev:PredicateObjectMap_8e0a33a3-ab59-4f45-aed7-20a45009cf09 rr:objectMap _:node1bb305bkfx6 .
 
-km-dev:TriplesMap_5bb83e37-ac50-4162-9022-79b83619d065 rr:predicateObjectMap km-dev:PredicateObjectMap_27cc2747-9e6b-4bab-892d-4aa2f1434787 .
+km-dev:TriplesMap_a87a84d3-e233-4b21-878c-d37f6ee996d0 rr:predicateObjectMap km-dev:PredicateObjectMap_8e0a33a3-ab59-4f45-aed7-20a45009cf09 .
 
-km-dev:PredicateObjectMap_27cc2747-9e6b-4bab-892d-4aa2f1434787 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_8e0a33a3-ab59-4f45-aed7-20a45009cf09 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_27cc2747-9e6b-4bab-892d-4aa2f1434787 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8e0a33a3-ab59-4f45-aed7-20a45009cf09 .
 
-km-dev:TriplesMap_0c391210-f874-4972-8c6b-59f528140b36 a rr:TriplesMap .
+km-dev:TriplesMap_ab590537-8156-432a-a224-5f07443d14da a rr:TriplesMap .
 
-_:node1bb2sqn3hx1 km-dev:hasTriplesMap km-dev:TriplesMap_0c391210-f874-4972-8c6b-59f528140b36 .
+_:node1bb305bkfx1 km-dev:hasTriplesMap km-dev:TriplesMap_ab590537-8156-432a-a224-5f07443d14da .
 
-km-dev:TriplesMap_0c391210-f874-4972-8c6b-59f528140b36 km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:TriplesMap_ab590537-8156-432a-a224-5f07443d14da km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx7 rr:tableName "acm-objects.xml" ;
+_:node1bb305bkfx7 rr:tableName "acm-objects.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasLogicalTable _:node1bb2sqn3hx7 .
+_:node1bb305bkfx1 km-dev:hasLogicalTable _:node1bb305bkfx7 .
 
-km-dev:TriplesMap_0c391210-f874-4972-8c6b-59f528140b36 rr:logicalTable _:node1bb2sqn3hx7 ;
-	rr:subjectMap _:node1bb2sqn3hx8 .
+km-dev:TriplesMap_ab590537-8156-432a-a224-5f07443d14da rr:logicalTable _:node1bb305bkfx7 ;
+	rr:subjectMap _:node1bb305bkfx8 .
 
-_:node1bb2sqn3hx1 km-dev:hasSubjectMap _:node1bb2sqn3hx8 .
+_:node1bb305bkfx1 km-dev:hasSubjectMap _:node1bb305bkfx8 .
 
-_:node1bb2sqn3hx8 km-dev:isPartOfMapping _:node1bb2sqn3hx1 ;
+_:node1bb305bkfx8 km-dev:isPartOfMapping _:node1bb305bkfx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1" ;
 	rr:class crm:E22_Man-Made_Object ;
 	rr:template "{[\"table\",\"tuple\",\"Glue_1\",\"Glue_1\",\"row_uri_new\"]}" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_1b0c5ec0-5bf7-4176-8bdf-31456592cb1b rr:predicate crm:P108i_was_produced_by .
+km-dev:PredicateObjectMap_84019777-dbb9-4bd1-abf4-ec139c5dd4ec rr:predicate crm:P108i_was_produced_by .
 
-km-dev:RefObjectMap_530d0a7a-4c7f-43e5-8cf1-fd63a92bb173 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_b14ff2b7-e9be-43be-846c-2a79aaa0fe07 ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:RefObjectMap_8e424efd-6399-4f63-8a0d-f98070a21bab a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_849312a2-f845-47be-8ea2-44a55fecc59b ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap km-dev:RefObjectMap_530d0a7a-4c7f-43e5-8cf1-fd63a92bb173 .
+_:node1bb305bkfx1 km-dev:hasObjectMap km-dev:RefObjectMap_8e424efd-6399-4f63-8a0d-f98070a21bab .
 
-km-dev:PredicateObjectMap_1b0c5ec0-5bf7-4176-8bdf-31456592cb1b rr:objectMap km-dev:RefObjectMap_530d0a7a-4c7f-43e5-8cf1-fd63a92bb173 .
+km-dev:PredicateObjectMap_84019777-dbb9-4bd1-abf4-ec139c5dd4ec rr:objectMap km-dev:RefObjectMap_8e424efd-6399-4f63-8a0d-f98070a21bab .
 
-km-dev:TriplesMap_0c391210-f874-4972-8c6b-59f528140b36 rr:predicateObjectMap km-dev:PredicateObjectMap_1b0c5ec0-5bf7-4176-8bdf-31456592cb1b .
+km-dev:TriplesMap_ab590537-8156-432a-a224-5f07443d14da rr:predicateObjectMap km-dev:PredicateObjectMap_84019777-dbb9-4bd1-abf4-ec139c5dd4ec .
 
-km-dev:PredicateObjectMap_1b0c5ec0-5bf7-4176-8bdf-31456592cb1b a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_84019777-dbb9-4bd1-abf4-ec139c5dd4ec a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1b0c5ec0-5bf7-4176-8bdf-31456592cb1b .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_84019777-dbb9-4bd1-abf4-ec139c5dd4ec .
 
-km-dev:PredicateObjectMap_a40ff635-aae5-4833-b54d-31435f0438f7 rr:predicate crm:P67i_is_referred_to_by .
+km-dev:PredicateObjectMap_84efe07f-20fa-4605-8b41-91d1e35ed045 rr:predicate crm:P67i_is_referred_to_by .
 
-km-dev:RefObjectMap_62d946ef-e907-48bb-a16c-b97e2e481bd4 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_daa33120-bd8b-460a-8141-b6f5d1458c2e ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:RefObjectMap_718e8b7e-5a9a-4d33-b0e1-b28ee7068463 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_547896dc-6335-4c2c-91d6-2d5599f5b596 ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap km-dev:RefObjectMap_62d946ef-e907-48bb-a16c-b97e2e481bd4 .
+_:node1bb305bkfx1 km-dev:hasObjectMap km-dev:RefObjectMap_718e8b7e-5a9a-4d33-b0e1-b28ee7068463 .
 
-km-dev:PredicateObjectMap_a40ff635-aae5-4833-b54d-31435f0438f7 rr:objectMap km-dev:RefObjectMap_62d946ef-e907-48bb-a16c-b97e2e481bd4 .
+km-dev:PredicateObjectMap_84efe07f-20fa-4605-8b41-91d1e35ed045 rr:objectMap km-dev:RefObjectMap_718e8b7e-5a9a-4d33-b0e1-b28ee7068463 .
 
-km-dev:TriplesMap_0c391210-f874-4972-8c6b-59f528140b36 rr:predicateObjectMap km-dev:PredicateObjectMap_a40ff635-aae5-4833-b54d-31435f0438f7 .
+km-dev:TriplesMap_ab590537-8156-432a-a224-5f07443d14da rr:predicateObjectMap km-dev:PredicateObjectMap_84efe07f-20fa-4605-8b41-91d1e35ed045 .
 
-km-dev:PredicateObjectMap_a40ff635-aae5-4833-b54d-31435f0438f7 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_84efe07f-20fa-4605-8b41-91d1e35ed045 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a40ff635-aae5-4833-b54d-31435f0438f7 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_84efe07f-20fa-4605-8b41-91d1e35ed045 .
 
-km-dev:PredicateObjectMap_c48d2eb4-7593-4b48-957d-2142dd6daf5b rr:predicate crm:P102_has_title .
+km-dev:PredicateObjectMap_af87d599-25c5-4353-9d53-690b3fdc33f0 rr:predicate crm:P102_has_title .
 
-km-dev:RefObjectMap_fe1d7585-fa93-4070-9769-07e2dab73ea1 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_23e8f829-805b-4465-be5e-80ed5611a87a ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:RefObjectMap_0782f33a-72c3-4af8-9406-850986acbfbd a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_01390040-b07e-4c7c-82fb-85541e9e27a5 ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap km-dev:RefObjectMap_fe1d7585-fa93-4070-9769-07e2dab73ea1 .
+_:node1bb305bkfx1 km-dev:hasObjectMap km-dev:RefObjectMap_0782f33a-72c3-4af8-9406-850986acbfbd .
 
-km-dev:PredicateObjectMap_c48d2eb4-7593-4b48-957d-2142dd6daf5b rr:objectMap km-dev:RefObjectMap_fe1d7585-fa93-4070-9769-07e2dab73ea1 .
+km-dev:PredicateObjectMap_af87d599-25c5-4353-9d53-690b3fdc33f0 rr:objectMap km-dev:RefObjectMap_0782f33a-72c3-4af8-9406-850986acbfbd .
 
-km-dev:TriplesMap_0c391210-f874-4972-8c6b-59f528140b36 rr:predicateObjectMap km-dev:PredicateObjectMap_c48d2eb4-7593-4b48-957d-2142dd6daf5b .
+km-dev:TriplesMap_ab590537-8156-432a-a224-5f07443d14da rr:predicateObjectMap km-dev:PredicateObjectMap_af87d599-25c5-4353-9d53-690b3fdc33f0 .
 
-km-dev:PredicateObjectMap_c48d2eb4-7593-4b48-957d-2142dd6daf5b a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_af87d599-25c5-4353-9d53-690b3fdc33f0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c48d2eb4-7593-4b48-957d-2142dd6daf5b .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_af87d599-25c5-4353-9d53-690b3fdc33f0 .
 
-km-dev:PredicateObjectMap_583e0f2d-c1e4-4705-a0c2-fb449b754a00 rr:predicate crm:P52_has_current_owner .
+km-dev:PredicateObjectMap_5f4ad4dd-c912-4178-8b1b-4e7c570d1ca3 rr:predicate crm:P52_has_current_owner .
 
-km-dev:RefObjectMap_56f47162-0939-477a-98f4-cc5e20e25ec0 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_15b74295-58e4-4004-b781-e32704f1eff5 ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:RefObjectMap_6587bad2-2ace-4d26-b13f-1b4a6ec0cff6 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_39ff8447-e136-45fb-b67c-849c64ed591a ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap km-dev:RefObjectMap_56f47162-0939-477a-98f4-cc5e20e25ec0 .
+_:node1bb305bkfx1 km-dev:hasObjectMap km-dev:RefObjectMap_6587bad2-2ace-4d26-b13f-1b4a6ec0cff6 .
 
-km-dev:PredicateObjectMap_583e0f2d-c1e4-4705-a0c2-fb449b754a00 rr:objectMap km-dev:RefObjectMap_56f47162-0939-477a-98f4-cc5e20e25ec0 .
+km-dev:PredicateObjectMap_5f4ad4dd-c912-4178-8b1b-4e7c570d1ca3 rr:objectMap km-dev:RefObjectMap_6587bad2-2ace-4d26-b13f-1b4a6ec0cff6 .
 
-km-dev:TriplesMap_0c391210-f874-4972-8c6b-59f528140b36 rr:predicateObjectMap km-dev:PredicateObjectMap_583e0f2d-c1e4-4705-a0c2-fb449b754a00 .
+km-dev:TriplesMap_ab590537-8156-432a-a224-5f07443d14da rr:predicateObjectMap km-dev:PredicateObjectMap_5f4ad4dd-c912-4178-8b1b-4e7c570d1ca3 .
 
-km-dev:PredicateObjectMap_583e0f2d-c1e4-4705-a0c2-fb449b754a00 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_5f4ad4dd-c912-4178-8b1b-4e7c570d1ca3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_583e0f2d-c1e4-4705-a0c2-fb449b754a00 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5f4ad4dd-c912-4178-8b1b-4e7c570d1ca3 .
 
-km-dev:PredicateObjectMap_89a7912b-6ce9-458d-8f4b-a73f0523378f rr:predicate crm:P1_is_identified_by .
+km-dev:PredicateObjectMap_9d440991-d4d4-4c8c-8595-2c5d6830349d rr:predicate crm:P1_is_identified_by .
 
-km-dev:RefObjectMap_0b7810f6-9025-40eb-aaed-a52a41eeaa5f a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_7887c501-68a1-4610-a718-0ebf0fb30a3b ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:RefObjectMap_50cb37d3-fde7-4519-b60a-61f2c466de50 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_99c91a15-9c67-4aca-8e28-86b390a274f8 ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap km-dev:RefObjectMap_0b7810f6-9025-40eb-aaed-a52a41eeaa5f .
+_:node1bb305bkfx1 km-dev:hasObjectMap km-dev:RefObjectMap_50cb37d3-fde7-4519-b60a-61f2c466de50 .
 
-km-dev:PredicateObjectMap_89a7912b-6ce9-458d-8f4b-a73f0523378f rr:objectMap km-dev:RefObjectMap_0b7810f6-9025-40eb-aaed-a52a41eeaa5f .
+km-dev:PredicateObjectMap_9d440991-d4d4-4c8c-8595-2c5d6830349d rr:objectMap km-dev:RefObjectMap_50cb37d3-fde7-4519-b60a-61f2c466de50 .
 
-km-dev:TriplesMap_0c391210-f874-4972-8c6b-59f528140b36 rr:predicateObjectMap km-dev:PredicateObjectMap_89a7912b-6ce9-458d-8f4b-a73f0523378f .
+km-dev:TriplesMap_ab590537-8156-432a-a224-5f07443d14da rr:predicateObjectMap km-dev:PredicateObjectMap_9d440991-d4d4-4c8c-8595-2c5d6830349d .
 
-km-dev:PredicateObjectMap_89a7912b-6ce9-458d-8f4b-a73f0523378f a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_9d440991-d4d4-4c8c-8595-2c5d6830349d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_89a7912b-6ce9-458d-8f4b-a73f0523378f .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9d440991-d4d4-4c8c-8595-2c5d6830349d .
 
-km-dev:PredicateObjectMap_d4492a90-c001-40fb-a375-56dc4bd12ff7 rr:predicate foaf:homepage .
+km-dev:PredicateObjectMap_29fc2488-60ce-4414-b17d-3f22a14906c9 rr:predicate foaf:homepage .
 
-km-dev:RefObjectMap_27e46395-8807-4bbc-8c57-8e12835a7eb4 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_06a519a4-a0d3-41b4-b323-0bd2753964d6 ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:RefObjectMap_3e9f1a8a-7804-4e29-8459-ca1208c5ca7a a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_42338b79-fd2a-41d1-a644-60c47f15e48e ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap km-dev:RefObjectMap_27e46395-8807-4bbc-8c57-8e12835a7eb4 .
+_:node1bb305bkfx1 km-dev:hasObjectMap km-dev:RefObjectMap_3e9f1a8a-7804-4e29-8459-ca1208c5ca7a .
 
-km-dev:PredicateObjectMap_d4492a90-c001-40fb-a375-56dc4bd12ff7 rr:objectMap km-dev:RefObjectMap_27e46395-8807-4bbc-8c57-8e12835a7eb4 .
+km-dev:PredicateObjectMap_29fc2488-60ce-4414-b17d-3f22a14906c9 rr:objectMap km-dev:RefObjectMap_3e9f1a8a-7804-4e29-8459-ca1208c5ca7a .
 
-km-dev:TriplesMap_0c391210-f874-4972-8c6b-59f528140b36 rr:predicateObjectMap km-dev:PredicateObjectMap_d4492a90-c001-40fb-a375-56dc4bd12ff7 .
+km-dev:TriplesMap_ab590537-8156-432a-a224-5f07443d14da rr:predicateObjectMap km-dev:PredicateObjectMap_29fc2488-60ce-4414-b17d-3f22a14906c9 .
 
-km-dev:PredicateObjectMap_d4492a90-c001-40fb-a375-56dc4bd12ff7 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_29fc2488-60ce-4414-b17d-3f22a14906c9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d4492a90-c001-40fb-a375-56dc4bd12ff7 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_29fc2488-60ce-4414-b17d-3f22a14906c9 .
 
-km-dev:PredicateObjectMap_64f44c3a-8111-4e55-bb58-6d8282bd3861 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_c83130a7-2d4f-479a-8bf3-3d0e649bb5ad rr:predicate rdfs:label .
 
-_:node1bb2sqn3hx9 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"titmaintitle\",\"Values\"]" ;
+_:node1bb305bkfx9 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"titmaintitle\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap _:node1bb2sqn3hx9 .
+_:node1bb305bkfx1 km-dev:hasObjectMap _:node1bb305bkfx9 .
 
-km-dev:PredicateObjectMap_64f44c3a-8111-4e55-bb58-6d8282bd3861 rr:objectMap _:node1bb2sqn3hx9 .
+km-dev:PredicateObjectMap_c83130a7-2d4f-479a-8bf3-3d0e649bb5ad rr:objectMap _:node1bb305bkfx9 .
 
-km-dev:TriplesMap_0c391210-f874-4972-8c6b-59f528140b36 rr:predicateObjectMap km-dev:PredicateObjectMap_64f44c3a-8111-4e55-bb58-6d8282bd3861 .
+km-dev:TriplesMap_ab590537-8156-432a-a224-5f07443d14da rr:predicateObjectMap km-dev:PredicateObjectMap_c83130a7-2d4f-479a-8bf3-3d0e649bb5ad .
 
-km-dev:PredicateObjectMap_64f44c3a-8111-4e55-bb58-6d8282bd3861 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_c83130a7-2d4f-479a-8bf3-3d0e649bb5ad a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_64f44c3a-8111-4e55-bb58-6d8282bd3861 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c83130a7-2d4f-479a-8bf3-3d0e649bb5ad .
 
-km-dev:TriplesMap_daa33120-bd8b-460a-8141-b6f5d1458c2e a rr:TriplesMap .
+km-dev:TriplesMap_547896dc-6335-4c2c-91d6-2d5599f5b596 a rr:TriplesMap .
 
-_:node1bb2sqn3hx1 km-dev:hasTriplesMap km-dev:TriplesMap_daa33120-bd8b-460a-8141-b6f5d1458c2e .
+_:node1bb305bkfx1 km-dev:hasTriplesMap km-dev:TriplesMap_547896dc-6335-4c2c-91d6-2d5599f5b596 .
 
-km-dev:TriplesMap_daa33120-bd8b-460a-8141-b6f5d1458c2e km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:TriplesMap_547896dc-6335-4c2c-91d6-2d5599f5b596 km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx10 rr:tableName "acm-objects.xml" ;
+_:node1bb305bkfx10 rr:tableName "acm-objects.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasLogicalTable _:node1bb2sqn3hx10 .
+_:node1bb305bkfx1 km-dev:hasLogicalTable _:node1bb305bkfx10 .
 
-km-dev:TriplesMap_daa33120-bd8b-460a-8141-b6f5d1458c2e rr:logicalTable _:node1bb2sqn3hx10 ;
-	rr:subjectMap _:node1bb2sqn3hx11 .
+km-dev:TriplesMap_547896dc-6335-4c2c-91d6-2d5599f5b596 rr:logicalTable _:node1bb305bkfx10 ;
+	rr:subjectMap _:node1bb305bkfx11 .
 
-_:node1bb2sqn3hx1 km-dev:hasSubjectMap _:node1bb2sqn3hx11 .
+_:node1bb305bkfx1 km-dev:hasSubjectMap _:node1bb305bkfx11 .
 
-_:node1bb2sqn3hx11 km-dev:isPartOfMapping _:node1bb2sqn3hx1 ;
+_:node1bb305bkfx11 km-dev:isPartOfMapping _:node1bb305bkfx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object1" ;
 	rr:class crm:E33_Linguistic_Object ;
 	rr:template "{[\"table\",\"tuple\",\"Glue_1\",\"Glue_1\",\"row_uri_new\"]}/medium" .
 
-km-dev:PredicateObjectMap_034d4748-d37e-40b0-987d-97f10a922f47 rr:predicate rdf:value .
+km-dev:PredicateObjectMap_93976804-0b38-4934-9a49-bdd81b413c97 rr:predicate rdf:value .
 
-_:node1bb2sqn3hx12 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"medmedium\",\"Values\"]" ;
+_:node1bb305bkfx12 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"medmedium\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap _:node1bb2sqn3hx12 .
+_:node1bb305bkfx1 km-dev:hasObjectMap _:node1bb305bkfx12 .
 
-km-dev:PredicateObjectMap_034d4748-d37e-40b0-987d-97f10a922f47 rr:objectMap _:node1bb2sqn3hx12 .
+km-dev:PredicateObjectMap_93976804-0b38-4934-9a49-bdd81b413c97 rr:objectMap _:node1bb305bkfx12 .
 
-km-dev:TriplesMap_daa33120-bd8b-460a-8141-b6f5d1458c2e rr:predicateObjectMap km-dev:PredicateObjectMap_034d4748-d37e-40b0-987d-97f10a922f47 .
+km-dev:TriplesMap_547896dc-6335-4c2c-91d6-2d5599f5b596 rr:predicateObjectMap km-dev:PredicateObjectMap_93976804-0b38-4934-9a49-bdd81b413c97 .
 
-km-dev:PredicateObjectMap_034d4748-d37e-40b0-987d-97f10a922f47 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_93976804-0b38-4934-9a49-bdd81b413c97 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_034d4748-d37e-40b0-987d-97f10a922f47 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_93976804-0b38-4934-9a49-bdd81b413c97 .
 
-km-dev:PredicateObjectMap_5c989419-60fb-4dfc-8e55-854bb4c4cc91 rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_097e4a84-6a81-4904-8eab-0eaded0c5594 rr:predicate crm:P2_has_type .
 
-_:node1bb2sqn3hx13 rr:constant <http://vocab.getty.edu/aat/300264237> ;
+_:node1bb305bkfx13 rr:constant <http://vocab.getty.edu/aat/300264237> ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap _:node1bb2sqn3hx13 .
+_:node1bb305bkfx1 km-dev:hasObjectMap _:node1bb305bkfx13 .
 
-km-dev:PredicateObjectMap_5c989419-60fb-4dfc-8e55-854bb4c4cc91 rr:objectMap _:node1bb2sqn3hx13 .
+km-dev:PredicateObjectMap_097e4a84-6a81-4904-8eab-0eaded0c5594 rr:objectMap _:node1bb305bkfx13 .
 
-km-dev:TriplesMap_daa33120-bd8b-460a-8141-b6f5d1458c2e rr:predicateObjectMap km-dev:PredicateObjectMap_5c989419-60fb-4dfc-8e55-854bb4c4cc91 .
+km-dev:TriplesMap_547896dc-6335-4c2c-91d6-2d5599f5b596 rr:predicateObjectMap km-dev:PredicateObjectMap_097e4a84-6a81-4904-8eab-0eaded0c5594 .
 
-km-dev:PredicateObjectMap_5c989419-60fb-4dfc-8e55-854bb4c4cc91 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_097e4a84-6a81-4904-8eab-0eaded0c5594 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5c989419-60fb-4dfc-8e55-854bb4c4cc91 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_097e4a84-6a81-4904-8eab-0eaded0c5594 .
 
-km-dev:TriplesMap_23e8f829-805b-4465-be5e-80ed5611a87a a rr:TriplesMap .
+km-dev:TriplesMap_01390040-b07e-4c7c-82fb-85541e9e27a5 a rr:TriplesMap .
 
-_:node1bb2sqn3hx1 km-dev:hasTriplesMap km-dev:TriplesMap_23e8f829-805b-4465-be5e-80ed5611a87a .
+_:node1bb305bkfx1 km-dev:hasTriplesMap km-dev:TriplesMap_01390040-b07e-4c7c-82fb-85541e9e27a5 .
 
-km-dev:TriplesMap_23e8f829-805b-4465-be5e-80ed5611a87a km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:TriplesMap_01390040-b07e-4c7c-82fb-85541e9e27a5 km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx14 rr:tableName "acm-objects.xml" ;
+_:node1bb305bkfx14 rr:tableName "acm-objects.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasLogicalTable _:node1bb2sqn3hx14 .
+_:node1bb305bkfx1 km-dev:hasLogicalTable _:node1bb305bkfx14 .
 
-km-dev:TriplesMap_23e8f829-805b-4465-be5e-80ed5611a87a rr:logicalTable _:node1bb2sqn3hx14 ;
-	rr:subjectMap _:node1bb2sqn3hx15 .
+km-dev:TriplesMap_01390040-b07e-4c7c-82fb-85541e9e27a5 rr:logicalTable _:node1bb305bkfx14 ;
+	rr:subjectMap _:node1bb305bkfx15 .
 
-_:node1bb2sqn3hx1 km-dev:hasSubjectMap _:node1bb2sqn3hx15 .
+_:node1bb305bkfx1 km-dev:hasSubjectMap _:node1bb305bkfx15 .
 
-_:node1bb2sqn3hx15 km-dev:isPartOfMapping _:node1bb2sqn3hx1 ;
+_:node1bb305bkfx15 km-dev:isPartOfMapping _:node1bb305bkfx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E35_Title1" ;
 	rr:class crm:E35_Title ;
 	rr:template "{[\"table\",\"tuple\",\"Unfold: name\",\"titmaintitle\",\"title_uri\"]}" .
 
-km-dev:PredicateObjectMap_9b170426-41f8-45a7-9ff7-ed05a973c1d3 rr:predicate rdf:value .
+km-dev:PredicateObjectMap_90666890-c1be-4109-8162-04e9d15d5d00 rr:predicate rdf:value .
 
-_:node1bb2sqn3hx16 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"titmaintitle\",\"Values\"]" ;
+_:node1bb305bkfx16 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"titmaintitle\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap _:node1bb2sqn3hx16 .
+_:node1bb305bkfx1 km-dev:hasObjectMap _:node1bb305bkfx16 .
 
-km-dev:PredicateObjectMap_9b170426-41f8-45a7-9ff7-ed05a973c1d3 rr:objectMap _:node1bb2sqn3hx16 .
+km-dev:PredicateObjectMap_90666890-c1be-4109-8162-04e9d15d5d00 rr:objectMap _:node1bb305bkfx16 .
 
-km-dev:TriplesMap_23e8f829-805b-4465-be5e-80ed5611a87a rr:predicateObjectMap km-dev:PredicateObjectMap_9b170426-41f8-45a7-9ff7-ed05a973c1d3 .
+km-dev:TriplesMap_01390040-b07e-4c7c-82fb-85541e9e27a5 rr:predicateObjectMap km-dev:PredicateObjectMap_90666890-c1be-4109-8162-04e9d15d5d00 .
 
-km-dev:PredicateObjectMap_9b170426-41f8-45a7-9ff7-ed05a973c1d3 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_90666890-c1be-4109-8162-04e9d15d5d00 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9b170426-41f8-45a7-9ff7-ed05a973c1d3 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_90666890-c1be-4109-8162-04e9d15d5d00 .
 
-km-dev:PredicateObjectMap_033f94a6-2a99-450e-bac8-304e56c3c351 rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_fbc9b945-a81f-4dd3-b1b2-c44664f84e18 rr:predicate crm:P2_has_type .
 
-_:node1bb2sqn3hx17 rr:constant <http://vocab.getty.edu/aat/300404670> ;
+_:node1bb305bkfx17 rr:constant <http://vocab.getty.edu/aat/300404670> ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap _:node1bb2sqn3hx17 .
+_:node1bb305bkfx1 km-dev:hasObjectMap _:node1bb305bkfx17 .
 
-km-dev:PredicateObjectMap_033f94a6-2a99-450e-bac8-304e56c3c351 rr:objectMap _:node1bb2sqn3hx17 .
+km-dev:PredicateObjectMap_fbc9b945-a81f-4dd3-b1b2-c44664f84e18 rr:objectMap _:node1bb305bkfx17 .
 
-km-dev:TriplesMap_23e8f829-805b-4465-be5e-80ed5611a87a rr:predicateObjectMap km-dev:PredicateObjectMap_033f94a6-2a99-450e-bac8-304e56c3c351 .
+km-dev:TriplesMap_01390040-b07e-4c7c-82fb-85541e9e27a5 rr:predicateObjectMap km-dev:PredicateObjectMap_fbc9b945-a81f-4dd3-b1b2-c44664f84e18 .
 
-km-dev:PredicateObjectMap_033f94a6-2a99-450e-bac8-304e56c3c351 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_fbc9b945-a81f-4dd3-b1b2-c44664f84e18 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_033f94a6-2a99-450e-bac8-304e56c3c351 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_fbc9b945-a81f-4dd3-b1b2-c44664f84e18 .
 
-km-dev:TriplesMap_15b74295-58e4-4004-b781-e32704f1eff5 a rr:TriplesMap .
+km-dev:TriplesMap_39ff8447-e136-45fb-b67c-849c64ed591a a rr:TriplesMap .
 
-_:node1bb2sqn3hx1 km-dev:hasTriplesMap km-dev:TriplesMap_15b74295-58e4-4004-b781-e32704f1eff5 .
+_:node1bb305bkfx1 km-dev:hasTriplesMap km-dev:TriplesMap_39ff8447-e136-45fb-b67c-849c64ed591a .
 
-km-dev:TriplesMap_15b74295-58e4-4004-b781-e32704f1eff5 km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:TriplesMap_39ff8447-e136-45fb-b67c-849c64ed591a km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx18 rr:tableName "acm-objects.xml" ;
+_:node1bb305bkfx18 rr:tableName "acm-objects.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasLogicalTable _:node1bb2sqn3hx18 .
+_:node1bb305bkfx1 km-dev:hasLogicalTable _:node1bb305bkfx18 .
 
-km-dev:TriplesMap_15b74295-58e4-4004-b781-e32704f1eff5 rr:logicalTable _:node1bb2sqn3hx18 ;
-	rr:subjectMap _:node1bb2sqn3hx19 .
+km-dev:TriplesMap_39ff8447-e136-45fb-b67c-849c64ed591a rr:logicalTable _:node1bb305bkfx18 ;
+	rr:subjectMap _:node1bb305bkfx19 .
 
-_:node1bb2sqn3hx1 km-dev:hasSubjectMap _:node1bb2sqn3hx19 .
+_:node1bb305bkfx1 km-dev:hasSubjectMap _:node1bb305bkfx19 .
 
-_:node1bb2sqn3hx19 km-dev:isPartOfMapping _:node1bb2sqn3hx1 ;
+_:node1bb305bkfx19 km-dev:isPartOfMapping _:node1bb305bkfx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1" ;
 	rr:class crm:E40_Legal_Body ;
 	rr:template "http://data.americanartcollaborative.org/acm" .
 
-km-dev:PredicateObjectMap_51ec3166-a63e-4f13-a546-79499e355809 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_a303bca6-15a9-4787-8a9a-ea95568dab13 rr:predicate rdfs:label .
 
-_:node1bb2sqn3hx20 rr:column "[\"table\",\"tuple\",\"Glue_1\",\"Glue_1\",\"OwnerLabel\"]" ;
+_:node1bb305bkfx20 rr:column "[\"table\",\"tuple\",\"Glue_1\",\"Glue_1\",\"OwnerLabel\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap _:node1bb2sqn3hx20 .
+_:node1bb305bkfx1 km-dev:hasObjectMap _:node1bb305bkfx20 .
 
-km-dev:PredicateObjectMap_51ec3166-a63e-4f13-a546-79499e355809 rr:objectMap _:node1bb2sqn3hx20 .
+km-dev:PredicateObjectMap_a303bca6-15a9-4787-8a9a-ea95568dab13 rr:objectMap _:node1bb305bkfx20 .
 
-km-dev:TriplesMap_15b74295-58e4-4004-b781-e32704f1eff5 rr:predicateObjectMap km-dev:PredicateObjectMap_51ec3166-a63e-4f13-a546-79499e355809 .
+km-dev:TriplesMap_39ff8447-e136-45fb-b67c-849c64ed591a rr:predicateObjectMap km-dev:PredicateObjectMap_a303bca6-15a9-4787-8a9a-ea95568dab13 .
 
-km-dev:PredicateObjectMap_51ec3166-a63e-4f13-a546-79499e355809 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_a303bca6-15a9-4787-8a9a-ea95568dab13 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_51ec3166-a63e-4f13-a546-79499e355809 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a303bca6-15a9-4787-8a9a-ea95568dab13 .
 
-km-dev:PredicateObjectMap_5b915849-5cc9-4297-860c-838fbbe6aecf rr:predicate skos:exactMatch .
+km-dev:PredicateObjectMap_85e5ae7a-c9fc-4e01-8941-6040c588fe50 rr:predicate skos:exactMatch .
 
-_:node1bb2sqn3hx21 rr:constant <http://vocab.getty.edu/ulan/500305326> ;
+_:node1bb305bkfx21 rr:constant <http://vocab.getty.edu/ulan/500305326> ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap _:node1bb2sqn3hx21 .
+_:node1bb305bkfx1 km-dev:hasObjectMap _:node1bb305bkfx21 .
 
-km-dev:PredicateObjectMap_5b915849-5cc9-4297-860c-838fbbe6aecf rr:objectMap _:node1bb2sqn3hx21 .
+km-dev:PredicateObjectMap_85e5ae7a-c9fc-4e01-8941-6040c588fe50 rr:objectMap _:node1bb305bkfx21 .
 
-km-dev:TriplesMap_15b74295-58e4-4004-b781-e32704f1eff5 rr:predicateObjectMap km-dev:PredicateObjectMap_5b915849-5cc9-4297-860c-838fbbe6aecf .
+km-dev:TriplesMap_39ff8447-e136-45fb-b67c-849c64ed591a rr:predicateObjectMap km-dev:PredicateObjectMap_85e5ae7a-c9fc-4e01-8941-6040c588fe50 .
 
-km-dev:PredicateObjectMap_5b915849-5cc9-4297-860c-838fbbe6aecf a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_85e5ae7a-c9fc-4e01-8941-6040c588fe50 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5b915849-5cc9-4297-860c-838fbbe6aecf .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_85e5ae7a-c9fc-4e01-8941-6040c588fe50 .
 
-km-dev:TriplesMap_7887c501-68a1-4610-a718-0ebf0fb30a3b a rr:TriplesMap .
+km-dev:TriplesMap_99c91a15-9c67-4aca-8e28-86b390a274f8 a rr:TriplesMap .
 
-_:node1bb2sqn3hx1 km-dev:hasTriplesMap km-dev:TriplesMap_7887c501-68a1-4610-a718-0ebf0fb30a3b .
+_:node1bb305bkfx1 km-dev:hasTriplesMap km-dev:TriplesMap_99c91a15-9c67-4aca-8e28-86b390a274f8 .
 
-km-dev:TriplesMap_7887c501-68a1-4610-a718-0ebf0fb30a3b km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:TriplesMap_99c91a15-9c67-4aca-8e28-86b390a274f8 km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx22 rr:tableName "acm-objects.xml" ;
+_:node1bb305bkfx22 rr:tableName "acm-objects.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasLogicalTable _:node1bb2sqn3hx22 .
+_:node1bb305bkfx1 km-dev:hasLogicalTable _:node1bb305bkfx22 .
 
-km-dev:TriplesMap_7887c501-68a1-4610-a718-0ebf0fb30a3b rr:logicalTable _:node1bb2sqn3hx22 ;
-	rr:subjectMap _:node1bb2sqn3hx23 .
+km-dev:TriplesMap_99c91a15-9c67-4aca-8e28-86b390a274f8 rr:logicalTable _:node1bb305bkfx22 ;
+	rr:subjectMap _:node1bb305bkfx23 .
 
-_:node1bb2sqn3hx1 km-dev:hasSubjectMap _:node1bb2sqn3hx23 .
+_:node1bb305bkfx1 km-dev:hasSubjectMap _:node1bb305bkfx23 .
 
-_:node1bb2sqn3hx23 km-dev:isPartOfMapping _:node1bb2sqn3hx1 ;
+_:node1bb305bkfx23 km-dev:isPartOfMapping _:node1bb305bkfx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1" ;
 	rr:class crm:E42_Identifier ;
 	rr:termType rr:BlankNode ;
 	km-dev:namePrefix "crm:E42_Identifier1" .
 
-km-dev:PredicateObjectMap_7294dff0-912b-4be9-a251-0e162543fd15 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_a6e5ace3-f28e-41ac-b425-512e55c3bf45 rr:predicate rdf:value .
 
-_:node1bb2sqn3hx24 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"titaccessionno\",\"Values\"]" ;
+_:node1bb305bkfx24 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"titaccessionno\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap _:node1bb2sqn3hx24 .
+_:node1bb305bkfx1 km-dev:hasObjectMap _:node1bb305bkfx24 .
 
-km-dev:PredicateObjectMap_7294dff0-912b-4be9-a251-0e162543fd15 rr:objectMap _:node1bb2sqn3hx24 .
+km-dev:PredicateObjectMap_a6e5ace3-f28e-41ac-b425-512e55c3bf45 rr:objectMap _:node1bb305bkfx24 .
 
-km-dev:TriplesMap_7887c501-68a1-4610-a718-0ebf0fb30a3b rr:predicateObjectMap km-dev:PredicateObjectMap_7294dff0-912b-4be9-a251-0e162543fd15 .
+km-dev:TriplesMap_99c91a15-9c67-4aca-8e28-86b390a274f8 rr:predicateObjectMap km-dev:PredicateObjectMap_a6e5ace3-f28e-41ac-b425-512e55c3bf45 .
 
-km-dev:PredicateObjectMap_7294dff0-912b-4be9-a251-0e162543fd15 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_a6e5ace3-f28e-41ac-b425-512e55c3bf45 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7294dff0-912b-4be9-a251-0e162543fd15 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a6e5ace3-f28e-41ac-b425-512e55c3bf45 .
 
-km-dev:PredicateObjectMap_d93deac9-2c0a-441c-b701-83ce4aeffe51 rr:predicate rdf:value .
+km-dev:PredicateObjectMap_849eaef4-29a2-4431-b6c0-84f144f817d2 rr:predicate rdfs:label .
 
-_:node1bb2sqn3hx25 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"titaccessionno\",\"Values\"]" ;
+_:node1bb305bkfx25 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"titaccessionno\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap _:node1bb2sqn3hx25 .
+_:node1bb305bkfx1 km-dev:hasObjectMap _:node1bb305bkfx25 .
 
-km-dev:PredicateObjectMap_d93deac9-2c0a-441c-b701-83ce4aeffe51 rr:objectMap _:node1bb2sqn3hx25 .
+km-dev:PredicateObjectMap_849eaef4-29a2-4431-b6c0-84f144f817d2 rr:objectMap _:node1bb305bkfx25 .
 
-km-dev:TriplesMap_7887c501-68a1-4610-a718-0ebf0fb30a3b rr:predicateObjectMap km-dev:PredicateObjectMap_d93deac9-2c0a-441c-b701-83ce4aeffe51 .
+km-dev:TriplesMap_99c91a15-9c67-4aca-8e28-86b390a274f8 rr:predicateObjectMap km-dev:PredicateObjectMap_849eaef4-29a2-4431-b6c0-84f144f817d2 .
 
-km-dev:PredicateObjectMap_d93deac9-2c0a-441c-b701-83ce4aeffe51 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_849eaef4-29a2-4431-b6c0-84f144f817d2 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d93deac9-2c0a-441c-b701-83ce4aeffe51 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_849eaef4-29a2-4431-b6c0-84f144f817d2 .
 
-km-dev:PredicateObjectMap_96ddee9a-9069-4665-abef-7cba27b6c6f3 rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_c0665c9f-eef4-4d0b-ac92-d906470a5c5f rr:predicate crm:P2_has_type .
 
-_:node1bb2sqn3hx26 rr:constant <http://vocab.getty.edu/aat/300404670> ;
+_:node1bb305bkfx26 rr:constant <http://vocab.getty.edu/aat/300404670> ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap _:node1bb2sqn3hx26 .
+_:node1bb305bkfx1 km-dev:hasObjectMap _:node1bb305bkfx26 .
 
-km-dev:PredicateObjectMap_96ddee9a-9069-4665-abef-7cba27b6c6f3 rr:objectMap _:node1bb2sqn3hx26 .
+km-dev:PredicateObjectMap_c0665c9f-eef4-4d0b-ac92-d906470a5c5f rr:objectMap _:node1bb305bkfx26 .
 
-km-dev:TriplesMap_7887c501-68a1-4610-a718-0ebf0fb30a3b rr:predicateObjectMap km-dev:PredicateObjectMap_96ddee9a-9069-4665-abef-7cba27b6c6f3 .
+km-dev:TriplesMap_99c91a15-9c67-4aca-8e28-86b390a274f8 rr:predicateObjectMap km-dev:PredicateObjectMap_c0665c9f-eef4-4d0b-ac92-d906470a5c5f .
 
-km-dev:PredicateObjectMap_96ddee9a-9069-4665-abef-7cba27b6c6f3 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_c0665c9f-eef4-4d0b-ac92-d906470a5c5f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_96ddee9a-9069-4665-abef-7cba27b6c6f3 .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c0665c9f-eef4-4d0b-ac92-d906470a5c5f .
 
-km-dev:TriplesMap_06a519a4-a0d3-41b4-b323-0bd2753964d6 a rr:TriplesMap .
+km-dev:TriplesMap_42338b79-fd2a-41d1-a644-60c47f15e48e a rr:TriplesMap .
 
-_:node1bb2sqn3hx1 km-dev:hasTriplesMap km-dev:TriplesMap_06a519a4-a0d3-41b4-b323-0bd2753964d6 .
+_:node1bb305bkfx1 km-dev:hasTriplesMap km-dev:TriplesMap_42338b79-fd2a-41d1-a644-60c47f15e48e .
 
-km-dev:TriplesMap_06a519a4-a0d3-41b4-b323-0bd2753964d6 km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:TriplesMap_42338b79-fd2a-41d1-a644-60c47f15e48e km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx27 rr:tableName "acm-objects.xml" ;
+_:node1bb305bkfx27 rr:tableName "acm-objects.xml" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasLogicalTable _:node1bb2sqn3hx27 .
+_:node1bb305bkfx1 km-dev:hasLogicalTable _:node1bb305bkfx27 .
 
-km-dev:TriplesMap_06a519a4-a0d3-41b4-b323-0bd2753964d6 rr:logicalTable _:node1bb2sqn3hx27 ;
-	rr:subjectMap _:node1bb2sqn3hx28 .
+km-dev:TriplesMap_42338b79-fd2a-41d1-a644-60c47f15e48e rr:logicalTable _:node1bb305bkfx27 ;
+	rr:subjectMap _:node1bb305bkfx28 .
 
-_:node1bb2sqn3hx1 km-dev:hasSubjectMap _:node1bb2sqn3hx28 .
+_:node1bb305bkfx1 km-dev:hasSubjectMap _:node1bb305bkfx28 .
 
-_:node1bb2sqn3hx28 km-dev:isPartOfMapping _:node1bb2sqn3hx1 ;
+_:node1bb305bkfx28 km-dev:isPartOfMapping _:node1bb305bkfx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://xmlns.com/foaf/0.1/Document1" ;
 	rr:class foaf:Document ;
-	rr:template "{[\"table\",\"tuple\",\"Glue_1\",\"Glue_1\",\"url_uri_new\"]}" .
+	rr:template "{[\"table\",\"tuple\",\"Unfold: name\",\"url\",\"Values\"]}" .
 
-km-dev:PredicateObjectMap_7a664ee6-78c5-4bed-9635-2f0bf18f49ae rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_04d360e9-428c-4d7a-accf-64235e1c61b0 rr:predicate rdfs:label .
 
-_:node1bb2sqn3hx29 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"url\",\"Values\"]" ;
+_:node1bb305bkfx29 rr:column "[\"table\",\"tuple\",\"Unfold: name\",\"url\",\"Values\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasObjectMap _:node1bb2sqn3hx29 .
+_:node1bb305bkfx1 km-dev:hasObjectMap _:node1bb305bkfx29 .
 
-km-dev:PredicateObjectMap_7a664ee6-78c5-4bed-9635-2f0bf18f49ae rr:objectMap _:node1bb2sqn3hx29 .
+km-dev:PredicateObjectMap_04d360e9-428c-4d7a-accf-64235e1c61b0 rr:objectMap _:node1bb305bkfx29 .
 
-km-dev:TriplesMap_06a519a4-a0d3-41b4-b323-0bd2753964d6 rr:predicateObjectMap km-dev:PredicateObjectMap_7a664ee6-78c5-4bed-9635-2f0bf18f49ae .
+km-dev:TriplesMap_42338b79-fd2a-41d1-a644-60c47f15e48e rr:predicateObjectMap km-dev:PredicateObjectMap_04d360e9-428c-4d7a-accf-64235e1c61b0 .
 
-km-dev:PredicateObjectMap_7a664ee6-78c5-4bed-9635-2f0bf18f49ae a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bb2sqn3hx1 .
+km-dev:PredicateObjectMap_04d360e9-428c-4d7a-accf-64235e1c61b0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bb305bkfx1 .
 
-_:node1bb2sqn3hx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7a664ee6-78c5-4bed-9635-2f0bf18f49ae .
+_:node1bb305bkfx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_04d360e9-428c-4d7a-accf-64235e1c61b0 .
