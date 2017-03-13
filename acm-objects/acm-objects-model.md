@@ -1,4 +1,4 @@
-# acm-objects.xml
+# AAC_AmonCarter_ObjectData_Updated_URIs.xml
 
 ## Add Column
 
@@ -228,6 +228,7 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 | _MediumURI_ | `uri` | `crm:E33_Linguistic_Object1`|
 | _OwnerLabel_ | `rdfs:label` | `crm:E40_Legal_Body1`|
 | _OwnerURI_ | `uri` | `crm:E40_Legal_Body1`|
+| _PrefIdURI_ | `uri` | `crm:E42_Identifier1`|
 | _ProductionURI_ | `uri` | `crm:E12_Production2`|
 | _TimeSpanURI_ | `uri` | `crm:E52_Time-Span1`|
 | _Values_ | `rdf:value` | `crm:E33_Linguistic_Object1`|
