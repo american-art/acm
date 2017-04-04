@@ -1,4 +1,4 @@
-# acm-objects.xml
+# acm-objects1.xml
 
 ## Add Column
 
@@ -233,12 +233,14 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 | _TimeSpanURI_ | `uri` | `crm:E52_Time-Span1`|
 | _Values_ | `rdf:value` | `crm:E33_Linguistic_Object1`|
 | _Values_ | `rdf:value` | `crm:E35_Title1`|
+| _Values_ | `rdfs:label` | `foaf:Document1`|
 | _Values_ | `rdfs:label` | `crm:E52_Time-Span1`|
 | _Values_ | `rdfs:label` | `crm:E42_Identifier1`|
 | _accession_duplicate_ | `rdf:value` | `crm:E42_Identifier1`|
 | _row_uri_new_ | `uri` | `crm:E22_Man-Made_Object1`|
 | _title_duplicate_ | `rdfs:label` | `crm:E22_Man-Made_Object1`|
 | _title_uri_ | `uri` | `crm:E35_Title1`|
+| _url_uri_ | `uri` | `foaf:Document1`|
 
 
 ## Links
@@ -250,6 +252,7 @@ return getValue("table_tuple_Glue_1_table_tuple_Unfold: name_titaccessionno_Valu
 | `crm:E22_Man-Made_Object1` | `crm:P102_has_title` | `crm:E35_Title1`|
 | `crm:E22_Man-Made_Object1` | `crm:P52_has_current_owner` | `crm:E40_Legal_Body1`|
 | `crm:E22_Man-Made_Object1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
+| `crm:E22_Man-Made_Object1` | `foaf:homepage` | `foaf:Document1`|
 | `crm:E33_Linguistic_Object1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300264237`|
 | `crm:E35_Title1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300404670`|
 | `crm:E40_Legal_Body1` | `skos:exactMatch` | `http://vocab.getty.edu/ulan/500305326`|
