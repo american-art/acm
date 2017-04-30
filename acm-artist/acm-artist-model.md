@@ -128,26 +128,89 @@ else:
 
 ```
 
+#### _DeathBeginDate_
+From column: _table / tuple / table / tuple / Unfold: name / biodeathearliestdate / Values_
+``` python
+if getValue("Values"):
+    if len(getValue("Values"))==4:
+        return getValue("Values")+"-01-01"
+    else:
+        return getValue("Values")
+else:
+    return ""
+```
+
+#### _DeathEndDate_
+From column: _table / tuple / table / tuple / Unfold: name / biodeathlatestdate / Values_
+``` python
+if getValue("Values"):
+    if len(getValue("Values"))==4:
+        return getValue("Values")+"-12-31"
+    else:
+        return getValue("Values")
+else:
+    return ""
+```
+
+#### _BirthBeginDate_
+From column: _table / tuple / table / tuple / Unfold: name / biobirthearliestdate / Values_
+``` python
+if getValue("Values"):
+    if len(getValue("Values"))==4:
+        return getValue("Values")+"-01-01"
+    else:
+        return getValue("Values")
+else:
+    return ""
+```
+
+#### _BirthEndDate_
+From column: _table / tuple / table / tuple / Unfold: name / biobirthlatestdate / Values_
+``` python
+if getValue("Values"):
+    if len(getValue("Values"))==4:
+        return getValue("Values")+"-12-31"
+    else:
+        return getValue("Values")
+else:
+    return ""
+```
+
+#### _PrefIdURI_
+From column: _table / tuple / table / tuple / Unfold: name / internalrecordnumber / Values_
+``` python
+return getValue("row_uri")+"/pref_id"
+```
+
+#### _IdLabel_
+From column: _table / tuple / table / tuple / Unfold: name / internalrecordnumber / Values_
+``` python
+return getValue("Values")
+```
+
 
 ## Selections
 
 ## Semantic Types
 | Column | Property | Class |
 |  ----- | -------- | ----- |
+| _BirthBeginDate_ | `crm:P82a_begin_of_the_begin` | `crm:E52_Time-Span1`|
+| _BirthEndDate_ | `crm:P82b_end_of_the_end` | `crm:E52_Time-Span1`|
+| _DeathBeginDate_ | `crm:P82a_begin_of_the_begin` | `crm:E52_Time-Span2`|
+| _DeathEndDate_ | `crm:P82b_end_of_the_end` | `crm:E52_Time-Span2`|
 | _End_Existence1_uri_ | `uri` | `crm:E64_End_of_Existence1`|
 | _GenderTypeURI_ | `uri` | `crm:E55_Type2`|
 | _GenderURI_in_use_ | `uri` | `crm:E55_Type1`|
+| _IdLabel_ | `rdfs:label` | `crm:E42_Identifier1`|
+| _PrefIdURI_ | `uri` | `crm:E42_Identifier1`|
+| _Values_ | `rdf:value` | `crm:E42_Identifier1`|
 | _Values_ | `rdfs:label` | `crm:E74_Group1`|
-| _Values_ | `rdfs:label` | `crm:E53_Place1`|
-| _Values_ | `crm:P82a_begin_of_the_begin` | `crm:E52_Time-Span2`|
-| _Values_ | `rdfs:label` | `crm:E55_Type1`|
-| _Values_ | `crm:P82b_end_of_the_end` | `crm:E52_Time-Span2`|
-| _Values_ | `rdfs:label` | `crm:E53_Place2`|
-| _Values_ | `rdf:value` | `crm:E82_Actor_Appellation1`|
-| _Values_ | `crm:P82b_end_of_the_end` | `crm:E52_Time-Span1`|
-| _Values_ | `rdfs:label` | `crm:E52_Time-Span2`|
-| _Values_ | `crm:P82a_begin_of_the_begin` | `crm:E52_Time-Span1`|
 | _Values_ | `rdfs:label` | `crm:E52_Time-Span1`|
+| _Values_ | `rdfs:label` | `crm:E53_Place1`|
+| _Values_ | `rdfs:label` | `crm:E52_Time-Span2`|
+| _Values_ | `rdfs:label` | `crm:E53_Place2`|
+| _Values_ | `rdfs:label` | `crm:E55_Type1`|
+| _Values_ | `rdf:value` | `crm:E82_Actor_Appellation1`|
 | _artist_name_uri_ | `uri` | `crm:E82_Actor_Appellation1`|
 | _begin_existence1_uri_ | `uri` | `crm:E63_Beginning_of_Existence1`|
 | _birthdate_uri_ | `uri` | `crm:E52_Time-Span1`|
@@ -162,11 +225,13 @@ else:
 ## Links
 | From | Property | To |
 |  --- | -------- | ---|
+| `crm:E39_Actor1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
 | `crm:E39_Actor1` | `crm:P2_has_type` | `crm:E55_Type1`|
 | `crm:E39_Actor1` | `crm:P92i_was_brought_into_existence_by` | `crm:E63_Beginning_of_Existence1`|
 | `crm:E39_Actor1` | `crm:P93i_was_taken_out_of_existence_by` | `crm:E64_End_of_Existence1`|
 | `crm:E39_Actor1` | `crm:P107i_is_current_or_former_member_of` | `crm:E74_Group1`|
 | `crm:E39_Actor1` | `crm:P131_is_identified_by` | `crm:E82_Actor_Appellation1`|
+| `crm:E42_Identifier1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300404670`|
 | `crm:E55_Type1` | `crm:P2_has_type` | `crm:E55_Type2`|
 | `crm:E55_Type2` | `skos:broadMatch` | `http://vocab.getty.edu/aat/300055147`|
 | `crm:E63_Beginning_of_Existence1` | `crm:P4_has_time-span` | `crm:E52_Time-Span1`|
