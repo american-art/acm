@@ -176,7 +176,7 @@ return "artist/"+getValue("content_Aggregation3").split(';')[1]
 #### _OwnerURI_
 From column: _table / tuple / Unfold: name / titaccessionno / ObjectURI_
 ``` python
-return "data.americanartcollaborative.org/acm"
+return "http://data.americanartcollaborative.org/acm"
 ```
 
 #### _OwnerLabel_
