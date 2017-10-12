@@ -1,4 +1,4 @@
-# ACMAA_Media_data_final_AAC data set IRNs
+# ACMAA_Media_data_final.csv
 
 ## Add Column
 
@@ -13,7 +13,11 @@ Literal Type: ``
 #### _ObjectURI_
 From column: _AccessionNo_
 ``` python
-return "object/" + SM.fingerprint_string(getValue("AccessionNo"))
+x = getValue("AccessionNo")
+x = SM.alpha_numeric(SM.ascii_chars(x)).lower()
+y = list(x.split())
+y = '_'.join(y)
+return "object/" + y
 ```
 
 #### _UrlLabel_
