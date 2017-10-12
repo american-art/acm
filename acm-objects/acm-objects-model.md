@@ -38,7 +38,11 @@ Literal Type: ``
 #### _ObjectURI_
 From column: _table / tuple / Unfold: name / titaccessionno / Values_
 ``` python
-return "object/"+SM.fingerprint_string(getValue("Values"))
+x = getValue("Values")
+x = SM.alpha_numeric(SM.ascii_chars(x)).lower()
+y = list(x.split())
+y = '_'.join(y)
+return "object/" + y
 ```
 
 #### _TitleURI_
