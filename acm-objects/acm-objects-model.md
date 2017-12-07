@@ -180,7 +180,7 @@ return "artist/"+getValue("content_Aggregation3").split(';')[1]
 #### _OwnerURI_
 From column: _table / tuple / Unfold: name / titaccessionno / ObjectURI_
 ``` python
-return "http://data.americanartcollaborative.org/acm"
+return "http://data.cartermuseum.org"
 ```
 
 #### _OwnerLabel_
@@ -212,11 +212,11 @@ return "The Amon Carter"
 | _TitleURI_ | `uri` | `crm:E35_Title1`|
 | _TypeURI_ | `uri` | `crm:E55_Type1`|
 | _UrlURI_ | `uri` | `foaf:Document1`|
-| _Values_ | `rdf:value` | `crm:E42_Identifier1`|
-| _Values_ | `rdfs:label` | `foaf:Document1`|
 | _Values_ | `rdf:value` | `crm:E33_Linguistic_Object1`|
 | _Values_ | `rdf:value` | `crm:E35_Title1`|
+| _Values_ | `rdfs:label` | `foaf:Document1`|
 | _Values_ | `rdfs:label` | `crm:E55_Type1`|
+| _Values_ | `rdf:value` | `crm:E42_Identifier1`|
 | _Values_ | `rdf:value` | `crm:E33_Linguistic_Object2`|
 
 
